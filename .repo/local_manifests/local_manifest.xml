@@ -11,6 +11,9 @@
           fetch="git+ssh://git@bitbucket.org/" />
 
   <project path="." name="legacyxperia2012/android_scripts" remote="bitbucket"/>
+  
+  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.8.3" name="legacyxperia2012/linaro-4.8.3" remote="bitbucket"/>
+  <project path="prebuilt/linux-x86/toolchain/linaro_cortex-a9" name="legacyxperia2012/linaro_cortex-a9" remote="bitbucket"/>
 
   <project path="device/sony/kumquat" name="legacyxperia2012/android_device_sony_kumquat" remote="bitbucket"/>
   <project path="hardware/semc" name="legacyxperia2012/android_hardware_semc" remote="bitbucket"/>
