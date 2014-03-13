@@ -9,7 +9,7 @@ fi
 
 #Patch
 echo Patching...
-for d in $(ls $patchDir | grep -v FM);
+for d in $(ls $patchDir);
 do
   for f in $(ls $patchDir"/"$d | grep .patch);
   do
