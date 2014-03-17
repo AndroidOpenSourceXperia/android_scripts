@@ -8,7 +8,7 @@ kernel/
 packages/
 prebuilts/
 repo/
-system
+system/
 android/
 bootable/
 dalvik/
