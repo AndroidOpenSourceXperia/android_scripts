@@ -5,7 +5,7 @@ Helpful scripts for build Android Open Source Project
 
 QuickStart:
 
-    git clone git@bitbucket.org:legacyxperia2012/android_scripts.git aosp;
+    git clone https://github.com/AndroidOpenSourceXperia/android_scripts.git aosp;
     cd aosp;
     repo init -u https://android.googlesource.com/platform/manifest;
     ./Update.sh && ./Compile.sh;
