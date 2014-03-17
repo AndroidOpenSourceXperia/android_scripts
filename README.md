@@ -13,7 +13,7 @@ QuickStart:
     
 Credits:
     
-    Munjeni: Kernel, porting Android Kitkat to Xperia 2012 devices and bugfix
-    DevSwift1: Start develop on Xperia 2012 devices and bugfix
-    Percy-g2: Support and bugfix
-    Andrewasth: Stable repository mantainer and support
+    @munjeni: Kernel, porting Android Kitkat to Xperia 2012 devices and bugfix
+    @DevSwift: Develop on Xperia 2012 devices and bugfix
+    @percy-g2: Support and bugfix
+    @Andrewas: Stable repository mantainer and support
