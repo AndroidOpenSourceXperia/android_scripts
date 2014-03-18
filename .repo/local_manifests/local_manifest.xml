@@ -6,26 +6,20 @@
 
   <remote name="googlecode"
           fetch="https://code.google.com/p/" />
-
-  <remote name="bitbucket"
-          fetch="git+ssh://git@bitbucket.org/" />
   
    <remote name="github"
            fetch="https://github.com/" />
   
-  <project path="prebuilts/gcc/linux-x86/arm/linaro-4.8.3" name="legacyxperia2012/linaro-4.8.3" remote="bitbucket"/>
-  <project path="prebuilt/linux-x86/toolchain/linaro_cortex-a9" name="legacyxperia2012/linaro_cortex-a9" remote="bitbucket"/>
+  <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
+  <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
+  <project path="hardware/ste"                  name="AndroidOpenSourceXperia/android_hardware_ste"                 remote="github"     revision="master" />
+  <project path="kernel/sony/u8500"             name="AndroidOpenSourceXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
+  <project path="vendor/sony"                   name="AndroidOpenSourceXperia/android_vendor_sony"                  remote="github"     revision="master" />
 
-  <project path="device/sony/montblanc-common" name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github" revision="master"/>
-  <project path="device/sony/kumquat" name="AndroidOpenSourceXperia/android_device_sony_kumquat" remote="github" revision="master"/>
-  <project path="hardware/ste" name="legacyxperia2012/android_hardware_ste" remote="bitbucket"/>
-  <project path="kernel/sony/u8500" name="AndroidOpenSourceXperia/android_kernel_sony_u8500" remote="github" revision="master"/>
-  <project path="vendor/sony" name="AndroidOpenSourceXperia/android_vendor_sony_kumquat" remote="github" revision="master"/>
-
-  <project remote="kernel" path="external/bluetooth/bluez" name="bluetooth/bluez" groups="pdk" revision="master" />
-  <project remote="kernel" path="external/bluetooth/sbc" name="bluetooth/sbc" groups="pdk" revision="master" />
-  <project remote="googlecode" path="external/bluetooth/glib" name="aosp-bluez.glib" groups="pdk" revision="master" />
+  <project path="external/bluetooth/bluez"      name="bluetooth/bluez"                                              remote="kernel"     revision="master" groups="pdk" />
+  <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master" groups="pdk" />
+  <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master" groups="pdk" />
   
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0"/>  
+  <project path="hardware/qcom/fm"              name="CyanogenMod/android_hardware_qcom_fm"                         remote="github"     revision="cm-11.0" />  
   
 </manifest>
