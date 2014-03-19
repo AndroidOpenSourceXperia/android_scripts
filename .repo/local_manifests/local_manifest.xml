@@ -39,6 +39,10 @@
   <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
   <project path="hardware/qcom/fm"              name="CyanogenMod/android_hardware_qcom_fm"                         remote="github"     revision="cm-11.0" />
   
+  <project path="external/nano"                 name="CyanogenMod/android_external_nano" />
+  <project path="external/busybox"              name="CyanogenMod/android_external_busybox" />
+  <project path="external/bash"                 name="CyanogenMod/android_external_bash" />
+  
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0"/>
 
 </manifest>
