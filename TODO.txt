@@ -8,7 +8,5 @@ TODO LIST:
   Update devices trees to KitKat                  95A31        
   Update vendors trees to upstream changes        ???
   
-  
-  
 DONE:
   <Task>                                          <Who worked on it>
