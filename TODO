@@ -1,0 +1,17 @@
+Please add your name if you are working on a task. Move to DONE if task is completed.
+
+TODO LIST:
+  
+  <Task>                                          <Who is working on it>
+  
+  Check elf3 correct integration                  95A31
+  F2FS integration                                ???
+  Adapt patches to AOSP                           ???
+  Update devices trees to KitKat                  95A31        
+  Update vendors trees to upstream changes        ???
+  
+  
+  
+DONE:
+
+  <Task>                                          <Who worked on it>
