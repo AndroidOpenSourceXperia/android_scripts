@@ -9,19 +9,23 @@
   
   <remote name="github"
            fetch="https://github.com/" />
-  <remove-project name="device/asus/deb" groups="device,flo" />
-  <remove-project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <remove-project name="device/asus/flo-kernel" groups="device,flo" />
-  <remove-project name="device/asus/grouper" groups="device,grouper" />
-  <remove-project name="device/asus/tilapia" groups="device,grouper" />
-  <remove-project name="device/lge/hammerhead" groups="device,hammerhead" />
+           
+  <remove-project name="device/asus/deb"              groups="device,flo" />
+  <remove-project name="device/asus/flo"              groups="device,flo" />
+  <remove-project name="device/asus/flo-kernel"       groups="device,flo" />
+  <remove-project name="device/asus/grouper"          groups="device,grouper" />
+  <remove-project name="device/asus/tilapia"          groups="device,grouper" />
+  <remove-project name="device/lge/hammerhead"        groups="device,hammerhead" />
   <remove-project name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <remove-project name="device/lge/mako" groups="device,mako" />
-  <remove-project name="device/lge/mako-kernel" groups="device,mako" />
-  <remove-project name="device/samsung/manta" groups="device,manta" />
+  <remove-project name="device/lge/mako"              groups="device,mako" />
+  <remove-project name="device/lge/mako-kernel"       groups="device,mako" />
+  <remove-project name="device/samsung/manta"         groups="device,manta" />
 
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
+  <project path="device/sony/pepper"            name="AndroidOpenSourceXperia/android_device_sony_pepper"           remote="github"     revision="master" />
+  <project path="device/sony/lotus"             name="AndroidOpenSourceXperia/android_device_sony_lotus"            remote="github"     revision="master" />
+  <project path="device/sony/nypon"             name="AndroidOpenSourceXperia/android_device_sony_nypon"            remote="github"     revision="master" />
   <project path="hardware/ste"                  name="AndroidOpenSourceXperia/android_hardware_ste"                 remote="github"     revision="master" />
   <project path="kernel/sony/u8500"             name="AndroidOpenSourceXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
   <project path="vendor/sony"                   name="AndroidOpenSourceXperia/android_vendor_sony"                  remote="github"     revision="master" />
@@ -30,7 +34,10 @@
   <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master" groups="pdk" />
   <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master" groups="pdk" />
   
-  <project path="hardware/qcom/fm"              name="CyanogenMod/android_hardware_qcom_fm"                         remote="github"     revision="cm-11.0" />  
+  <project path="external/Superuser"            name="CyanogenMod/Superuser"                                        remote="github"     revision="cm-11.0" />
+  <project path="packages/apps/Torch"           name="CyanogenMod/android_packages_apps_Torch"                      remote="github"     revision="cm-11.0" />
+  <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
+  <project path="hardware/qcom/fm"              name="CyanogenMod/android_hardware_qcom_fm"                         remote="github"     revision="cm-11.0" />
   
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0"/>
 
