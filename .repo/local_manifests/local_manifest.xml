@@ -34,6 +34,7 @@
   <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master" groups="pdk" />
   <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master" groups="pdk" />
   
+  <project path="bootable/recovery"             name="CyanogenMod/android_bootable_recovery"                        remote="github"     revision="cm-11.0" />
   <project path="external/Superuser"            name="CyanogenMod/Superuser"                                        remote="github"     revision="cm-11.0" />
   <project path="packages/apps/Torch"           name="CyanogenMod/android_packages_apps_Torch"                      remote="github"     revision="cm-11.0" />
   <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
