@@ -5,7 +5,7 @@ TODO LIST:
   Check elf3 correct integration                  95A31
   F2FS integration                                ???
   Adapt patches to AOSP                           ???
-  Update devices trees to KitKat                  95A31        
+  Update devices trees to KitKat                  95A31, XperiaMT27(Sola)        
   Update vendors trees to upstream changes        ???
   
 DONE:
