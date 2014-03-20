@@ -20,7 +20,6 @@
   <remove-project name="device/lge/mako"              groups="device,mako" />
   <remove-project name="device/lge/mako-kernel"       groups="device,mako" />
   <remove-project name="device/samsung/manta"         groups="device,manta" />
-  <remove-project name="bootable/recovery" />
 
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
