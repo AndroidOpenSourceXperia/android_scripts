@@ -1,13 +1,30 @@
-Please add your name if you are working on a task. Move to DONE if task is completed.
+                                                    THE MASTER PALN
 
-TODO LIST:
-  <Task>                                          <Who is working on it>
-  F2FS integration                                ???
-  Adapt patches to AOSP                           ???
-  Update devices trees to KitKat                  95A31, XperiaMT27(Sola)        
-  Update vendors trees to upstream changes        ???
-  Sync kernels config to XU                       ???
+TODO:
+  Check that all devices have proper charging animation
+  Check that all devices have proper bootlogo
+  Check that all devices have proper lcd density and video buffers size
+  Check for not used files in config/ include/ liblights/ overlay/ recovery/ in both commons and device trees
+  Check that all common stuff is in montblanc-common and device stuff in devices trees
+  Check that all common vendor stuff is in montblanc-common and device stuff in devices trees
+  Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
+  Format and cleanup all resources
+  Adapt patches to AOSP
+  Final checks ands devices syncs
+  ALPHA BUILD!!!
+  Fix Audio
+  Fix OMX 
+  BETA BUILD!!!
+  Fix others bugs
+  RC BUILD!!!
+  Fix minors bugs
+  Optimization
+  STABLE BUILD!!!
+  Fix FM Radio
+  Use F2FS
+  Build with Linario toolchain
+  NO BUGS BUILD!!!
+
   
 DONE:
-  <Task>                                          <Who worked on it>
-  Check elf3 binaries                             95A31
+  Check elf3 binaries
