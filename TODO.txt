@@ -2,7 +2,6 @@
 
 TODO:
   Check that all devices have proper charging animation
-  Check that all devices have proper bootlogo
   Check that all devices have proper lcd density and video buffers size
   Check for not used files in config/ include/ liblights/ overlay/ recovery/ in both commons and device trees
   Check that all common stuff is in montblanc-common and device stuff in devices trees
@@ -27,4 +26,5 @@ TODO:
 
   
 DONE:
+  Check that all devices have proper bootlogo
   Check elf3 binaries
