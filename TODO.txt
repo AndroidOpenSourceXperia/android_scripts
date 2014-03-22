@@ -1,8 +1,9 @@
                                                     THE MASTER PLAN
 
 TODO:
-  Check that all devices have proper lcd density and video buffers size
-  Check for not used files in config/ include/ liblights/ overlay/ recovery/ in both commons and device trees
+  Finish to split system.prop between coomon and device tree. Common is ok, use PRODUCT_PROPERTY_OVERRIDES for device tree. Create a new mk file ind import it ?
+  Check that all devices have proper video buffers size
+  Check for not used files in config/ recovery/ in XU
   Check that all common stuff is in montblanc-common and device stuff in devices trees
   Check that all common vendor stuff is in montblanc-common and device stuff in devices trees
   Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
