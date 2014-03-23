@@ -1,2 +1,2 @@
 #Compile
-. build/envsetup.sh && brunch cm_kumquat-userdebug;
+. build/envsetup.sh && brunch full_kumquat-userdebug;
