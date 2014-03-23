@@ -7,6 +7,8 @@ TODO:
   Check that all common stuff is in montblanc-common and device stuff in devices trees
   Check that all common vendor stuff is in montblanc-common and device stuff in devices trees
   Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
+  Dual Recovery (TWRP and CWM Touch) [Remove AOSP recovery ,disable recovery build from build repo script and add prebuilt recovery zip with different combo]
+  Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
   Format and cleanup all resources
   Adapt patches to AOSP
   Final checks ands devices syncs
