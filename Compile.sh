@@ -16,5 +16,6 @@ do
   done
 done
 
+device="$1"
 #Compile
-./Recompile.sh
+./Recompile$device.sh
