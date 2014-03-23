@@ -19,6 +19,7 @@ TODO:
   Fix minors bugs
   Optimization
   STABLE BUILD!!!
+  Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
   Fix FM Radio
   Use F2FS
   Build with Linario toolchain
