@@ -3,7 +3,7 @@ patchDir="hardware/ste/patches"
 
 #Patch
 echo Patching...
-for d in $(ls $patchDir);
+for d in $(ls $patchDir | grep -v FM);
 do
   for f in $(ls $patchDir"/"$d | grep .patch);
   do
