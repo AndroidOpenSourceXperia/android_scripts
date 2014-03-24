@@ -18,12 +18,15 @@ if [[ $# = 1 ]]; then
       lunch full_lotus-userdebug && make otapackage -j12;
     ;;
     *)
-      echo "ERROR: Unknow option" && make otapackage -j12;
+      echo "ERROR: Unknow option";
+      exit 1;
     ;;
     esac
   else 
     echo "ERROR: . build/envsetup.sh falied"
+    exit 1;
   fi
 else
   echo "ERROR: Number of options not correct. Usage: ./Recompile.sh -u | -p | -s | -g"
+  exit 1;
 fi
