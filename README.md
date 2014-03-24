@@ -8,9 +8,11 @@ QuickStart:
     git clone https://github.com/AndroidOpenSourceXperia/android_scripts.git aosp;
     cd aosp;
     repo init -u https://android.googlesource.com/platform/manifest;
-    ./Update.sh 
-	./Compile.sh <device-name>;
-
+    ./Update.sh;
+    ./Compile.sh -u; (Xperia U)
+    ./Compile.sh -p; (Xperia P)   
+    ./Compile.sh -s; (Xperia Sola)
+    ./Compile.sh -g; (Xperia Go) 
     
 Credits:
     
