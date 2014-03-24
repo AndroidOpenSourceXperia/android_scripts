@@ -5,16 +5,16 @@ if [[ $# = 1 ]]; then
   if [[ $? = 0 ]]; then
     case $1 in
     -u)
-      echo brunch full_kumquat-userdebug;
+      brunch full_kumquat-userdebug;
     ;;
     -p)
-      echo brunch full_nypon-userdebug
+      brunch full_nypon-userdebug
     ;;
     -s)
-      echo brunch full_pepper-userdebug;
+      brunch full_pepper-userdebug;
     ;;
     -g)
-      echo brunch full_lotus-userdebug;
+      brunch full_lotus-userdebug;
     ;;
     *)
       echo "ERROR: Unknow option"
