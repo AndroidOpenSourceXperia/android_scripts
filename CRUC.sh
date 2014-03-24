@@ -11,4 +11,4 @@ else
    echo "ERROR: Number of options not correct. Usage: ./Compile.sh -u | -p | -s | -g"
 fi
 
-./CleanCM.sh && ./ResetCM.sh && ./UpdateCM.sh && ./CompileCM.sh $1
+./Clean.sh && ./Reset.sh && ./Update.sh && ./Compile.sh $1
