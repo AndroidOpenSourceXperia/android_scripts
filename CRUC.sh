@@ -9,6 +9,7 @@ if [[ $# = 1 ]]; then
   esac
 else 
    echo "ERROR: Number of options not correct. Usage: ./Compile.sh -u | -p | -s | -g"
+   exit 1;
 fi
 
 ./Clean.sh && ./Reset.sh && ./Update.sh && ./Compile.sh $1
