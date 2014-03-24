@@ -5,19 +5,19 @@ if [[ $# = 1 ]]; then
   if [[ $? = 0 ]]; then
     case $1 in
     -u)
-      brunch full_kumquat-userdebug;
+      lunch full_kumquat-userdebug && make otapackage -j12
     ;;
     -p)
-      brunch full_nypon-userdebug
+      lunch full_nypon-userdebug && make otapackage -j12
     ;;
     -s)
-      brunch full_pepper-userdebug;
+      lunch full_pepper-userdebug; && make otapackage -j12
     ;;
     -g)
-      brunch full_lotus-userdebug;
+      lunch full_lotus-userdebug; && make otapackage -j12
     ;;
     *)
-      echo "ERROR: Unknow option"
+      echo "ERROR: Unknow option" && make otapackage -j12
     ;;
     esac
   else 
