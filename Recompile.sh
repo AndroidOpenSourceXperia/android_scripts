@@ -3,6 +3,7 @@
 if [[ $# = 1 ]]; then
   . build/envsetup.sh
   if [[ $? = 0 ]]; then
+    export EXPERIMENTAL_USE_JAVA7=true
     case $1 in
     -u)
       lunch full_kumquat-userdebug && make otapackage -j12
