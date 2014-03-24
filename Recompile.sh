@@ -24,5 +24,5 @@ if [[ $# = 1 ]]; then
     echo "ERROR: . build/envsetup.sh falied"
   fi
 else
-  echo "ERROR: Number of options not correct. Usage: Recompile -u | -p | -s | -g"
+  echo "ERROR: Number of options not correct. Usage: ./Recompile.sh -u | -p | -s | -g"
 fi
