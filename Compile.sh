@@ -29,5 +29,5 @@ do
   done
 done
 
-#Compile
-./Compile.sh $1
+#Recompile
+./Recompile.sh $1
