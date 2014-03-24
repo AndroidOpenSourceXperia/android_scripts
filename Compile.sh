@@ -30,5 +30,8 @@ do
   done
 done
 
+# We use CyanogenMod su binary, remove AOSP one in order to avoid conflicts
+rm system/extras/su/Android.mk &> /dev/null
+
 #Recompile
 ./Recompile.sh $1
