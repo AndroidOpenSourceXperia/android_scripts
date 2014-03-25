@@ -47,6 +47,8 @@
   <project path="hardware/qcom/fm"              name="CyanogenMod/android_hardware_qcom_fm"                         remote="github"     revision="cm-11.0" />
   
   <project path="external/nano"                 name="CyanogenMod/android_external_nano"                            remote="github"     revision="cm-11.0" />
+  <project path="external/libncurses"           name="CyanogenMod/android_external_libncurses"                      remote="github"     revision="cm-11.0" />
+  
   <project path="external/busybox"              name="CyanogenMod/android_external_busybox"                         remote="github"     revision="cm-11.0" />
   <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
 
