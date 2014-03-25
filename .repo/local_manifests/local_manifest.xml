@@ -10,20 +10,20 @@
   <remote name="github"
            fetch="https://github.com/" />
            
-  <remove-project name="device/asus/deb"              groups="device,flo" />
-  <remove-project name="device/asus/flo"              groups="device,flo" />
-  <remove-project name="device/asus/flo-kernel"       groups="device,flo" />
-  <remove-project name="device/asus/grouper"          groups="device,grouper" />
-  <remove-project name="device/asus/tilapia"          groups="device,grouper" />
-  <remove-project name="device/lge/hammerhead"        groups="device,hammerhead" />
-  <remove-project name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <remove-project name="device/lge/mako"              groups="device,mako" />
-  <remove-project name="device/lge/mako-kernel"       groups="device,mako" />
-  <remove-project name="device/samsung/manta"         groups="device,manta" />
-  <remove-project name="platform/bootable/recovery"   groups="pdk" />
-  <remove-project name="platform/external/bluetooth/bluedroid" />
+  <remove-project name="device/asus/deb"                        groups="device,flo" />
+  <remove-project name="device/asus/flo"                        groups="device,flo" />
+  <remove-project name="device/asus/flo-kernel"                 groups="device,flo" />
+  <remove-project name="device/asus/grouper"                    groups="device,grouper" />
+  <remove-project name="device/asus/tilapia"                    groups="device,grouper" />
+  <remove-project name="device/lge/hammerhead"                  groups="device,hammerhead" />
+  <remove-project name="device/lge/hammerhead-kernel"           groups="device,hammerhead" />
+  <remove-project name="device/lge/mako"                        groups="device,mako" />
+  <remove-project name="device/lge/mako-kernel"                 groups="device,mako" />
+  <remove-project name="device/samsung/manta"                   groups="device,manta" />
+  <remove-project name="platform/bootable/recovery"             groups="pdk" />
+  <remove-project name="platform/external/bluetooth/bluedroid"  groups="pdk" />
 
-  <project path="."                             name="AndroidOpenSourceXperia/android_scripts"                      remote="github"     revision="master" />
+  <project path="./"                            name="AndroidOpenSourceXperia/android_scripts"                      remote="github"     revision="master" />
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
   <project path="device/sony/pepper"            name="AndroidOpenSourceXperia/android_device_sony_pepper"           remote="github"     revision="master" />
