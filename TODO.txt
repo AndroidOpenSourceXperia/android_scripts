@@ -26,8 +26,9 @@ TODO:
 
   
 DONE:
-  Check that all common vendor stuff is in montblanc-common and device stuff in devices trees
-  Finish to split system.prop between coomon and device tree (XU)
+  Split system.prop between coomon and device tree (XU)
+  Check that all devices have correcr LCD density and Graphics buffers
+  Check that common vendor stuff is in montblanc-common and device stuff in vendor devices trees
   Check that all devices have proper charging animation
   Check that all devices have proper bootlogo
   Check elf3 binaries
