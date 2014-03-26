@@ -7,7 +7,7 @@ QuickStart:
 
     git clone https://github.com/AndroidOpenSourceXperia/android_scripts.git aosp;
     cd aosp;
-    repo init -u https://android.googlesource.com/platform/manifest;
+    repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.2_r2;
     ./Update.sh;
     ./Compile.sh -u; (Xperia U)
     ./Compile.sh -p; (Xperia P)   

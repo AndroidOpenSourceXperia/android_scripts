@@ -51,9 +51,7 @@
   
   <project path="external/busybox"              name="CyanogenMod/android_external_busybox"                         remote="github"     revision="cm-11.0" />
   <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
-
-  <project path="scripts"                       name="AndroidOpenSourceXperia/android_scripts"                      remote="github"     revision="master" >
-  <copyfile src="CRUC.sh" dest="CRUC" />
+  
   </project>
 
 </manifest>
