@@ -38,15 +38,15 @@ echo "Cherry picking..."
 rootDir=$PWD
 
 # Support for Make 4.0
-if [ $(cd build && git cherry-pick -m 1 7a77261988354b13996e5ba84b87351b571a5a52 && cd $rootDir) ]; then
+if [[ ! $(cd build && git cherry-pick -m 1 7a77261988354b13996e5ba84b87351b571a5a52 && cd $rootDir) ]]; then
   exit 1;
 fi
 
 # Java 7 compilation
-if [ $(cd build && git cherry-pick ad6909913145ba3daeb037f0170b95f855f7d08f && cd $rootDir) ]; then
+if [[ ! $(cd build && git cherry-pick ad6909913145ba3daeb037f0170b95f855f7d08f && cd $rootDir) ]]; then
   exit 1;
 fi
-if [ $(cd libcore && git cherry-pick a9a297845620cfe56bbe3b9f8de1331b7ec54574 && cd $rootDir) ]; then
+if [[ ! $(cd libcore && git cherry-pick a9a297845620cfe56bbe3b9f8de1331b7ec54574 && cd $rootDir) ]]; then
   exit 1;
 fi
 
