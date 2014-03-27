@@ -20,7 +20,7 @@ patchDir="hardware/ste/patches"
 echo "Cherry picking..."
 old_IFS=$IFS      
 IFS=$'\n'          
-for line in $(cat $patchDir/cherry-picks.list | grep -v "#")          
+for line in $(cat $patchDir/cherry-picks.list)          
 do          
    dir=$(echo $line | cut -f1 -d"|");
    gitCmd=$(echo $line | cut -f2 -d"|");
