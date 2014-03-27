@@ -46,7 +46,7 @@ do
     git apply -p1 --verbose --ignore-space-change --ignore-whitespace < $dir$f
     RETVAL=$?
     if [ $RETVAL -ne 0 ]; then
-	  echo "Error $RETVAL with patch $dir/$f"
+	  echo "Error $RETVAL with patch $dir$f"
 	  exit $RETVAL
     fi
   done
