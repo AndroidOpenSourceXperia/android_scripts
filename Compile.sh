@@ -37,8 +37,14 @@ rm system/extras/su/Android.mk &> /dev/null
 echo "Cherry picking..."
 rootDir=$PWD
 
-# Fix Java 7 compilation
-cd libcore; git cherry-pick 9c8864d39704b3d264ef9dfbdc1bfcfd8f1b6bb9; cd $rootDir;
+# Support for Make 4.0
+cd build; git cherry-pick 7a77261988354b13996e5ba84b87351b571a5a; cd $rootDir;
+
+# Java 7 compilation
+cd build; git cherry-pick ad6909913145ba3daeb037f0170b95f855f7d08f; cd $rootDir;
+cd libcore; git cherry-pick a9a297845620cfe56bbe3b9f8de1331b7ec54574; cd $rootDir;
+
+52
 
 #Recompile
 ./Recompile.sh $1
