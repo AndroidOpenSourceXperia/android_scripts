@@ -18,9 +18,8 @@ patchDir="hardware/ste/patches"
 
 # Cherry picks
 echo "Cherry picking..."
-old_IFS=$IFS      
-IFS=$'\n'          
-for line in $(cat $patchDir/cherry-picks.list)          
+
+while read line                   
 do          
    dir=$(echo $line | cut -f1 -d"|");
    gitCmd=$(echo $line | cut -f2 -d"|");
@@ -35,8 +34,7 @@ do
       exit 1;
     fi
    
-done          
-IFS=$old_IFS
+done < $patchDir/cherry-picks.list
 
 
 #Patch
