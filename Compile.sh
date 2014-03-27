@@ -22,8 +22,8 @@ old_IFS=$IFS
 IFS=$'\n'          
 for line in $(cat $patchDir/cherry-picks.list | grep -v "#")          
 do          
-   dir=$(echo $line | cut -f1 -b "|");
-   gitCmd=$(echo $line | cut -f2 -b "|");
+   dir=$(echo $line | cut -f1 -d"|");
+   gitCmd=$(echo $line | cut -f2 -d"|");
    
    cd $dir;
    git $gitCmd;
