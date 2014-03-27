@@ -43,7 +43,7 @@ for dir in $(ls -d $patchDir/*/ | grep -v FM );
 do
   for f in $(ls $dir | grep .patch);
   do
-    git apply -p1 --verbose --ignore-space-change --ignore-whitespace < $dir"/"$f
+    git apply -p1 --verbose --ignore-space-change --ignore-whitespace < $dir$f
     RETVAL=$?
     if [ $RETVAL -ne 0 ]; then
 	  echo "Error $RETVAL with patch $dir/$f"
