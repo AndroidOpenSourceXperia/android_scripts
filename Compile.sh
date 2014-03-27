@@ -27,7 +27,7 @@ do
    cd $dir;
    git cherry-pick $gitCmd;
    exitValue=$?;
-   cd $rootDir;
+   cd $rootdir;
    
     if [[ ! $exitValue ]]; then
       echo "Error with cherry-pick $gitCmd in $dir";
@@ -39,14 +39,14 @@ done < $patchDir/cherry-picks.list
 
 #Patch
 echo "Patching..."
-for d in $(ls $patchDir | grep -v FM);
+for dir in $(ls -d $patchDir/*/ | grep -v FM );
 do
-  for f in $(ls $patchDir"/"$d | grep .patch);
+  for f in $(ls $dir | grep .patch);
   do
-    git apply -p1 --verbose --ignore-space-change --ignore-whitespace < $patchDir"/"$d"/"$f
+    git apply -p1 --verbose --ignore-space-change --ignore-whitespace < $dir"/"$f
     RETVAL=$?
     if [ $RETVAL -ne 0 ]; then
-	  echo "Error $RETVAL with patch $d/$f"
+	  echo "Error $RETVAL with patch $dir/$f"
 	  exit $RETVAL
     fi
   done
