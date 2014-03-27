@@ -26,7 +26,7 @@ do
    gitCmd=$(echo $line | cut -f2 -d"|");
    
    cd $dir;
-   git $gitCmd;
+   git cherry-pick $gitCmd;
    exitValue=$?
    cd $rootdir;
    
