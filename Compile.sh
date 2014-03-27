@@ -29,7 +29,7 @@ do
    exitValue=$?;
    cd $rootdir;
    
-    if [[ ! $? ]]; then
+    if [[ ! $exitValue ]]; then
       echo "Error with cherry-pick $gitCmd in $dir";
       exit 1;
     fi
