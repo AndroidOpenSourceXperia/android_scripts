@@ -24,8 +24,9 @@ do
    dir=$(echo $line | cut -f1 -d"|");
    gitCmd=$(echo $line | cut -f2 -d"|");
    
-   git pull aosp &> /dev/null
+   
    cd $dir;
+   git pull aosp &> /dev/null;
    git cherry-pick $gitCmd;
    exitValue=$?;
    cd $rootDir;
