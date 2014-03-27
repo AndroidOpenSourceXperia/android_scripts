@@ -33,5 +33,11 @@ done
 # We use CyanogenMod su binary, remove AOSP one in order to avoid conflicts
 rm system/extras/su/Android.mk &> /dev/null
 
+# Cherry picks
+rootDir=$PWD
+
+# Fix Java 7 compilation
+cd libcore; git cherry-pick 9c8864d39704b3d264ef9dfbdc1bfcfd8f1b6bb9; cd rootDir;
+
 #Recompile
 ./Recompile.sh $1
