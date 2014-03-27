@@ -3,7 +3,11 @@
 if [[ $# = 1 ]]; then
   . build/envsetup.sh
   if [[ $? = 0 ]]; then
-    export EXPERIMENTAL_USE_JAVA7_OPENJDK=true
+    # Use local Java Development Kit 6
+    if (( $(java -version 2>&1 | grep version | cut -f2 -d".") > 6 )); then
+       export JAVA_HOME=$(realpath ../jdk1.6.0_45/bin/);
+    fi
+    
     case $1 in
     -u)
       lunch full_kumquat-userdebug && make otapackage -j12;
