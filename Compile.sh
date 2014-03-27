@@ -34,10 +34,11 @@ done
 rm system/extras/su/Android.mk &> /dev/null
 
 # Cherry picks
+echo "Cherry picking..."
 rootDir=$PWD
 
 # Fix Java 7 compilation
-cd libcore; git cherry-pick 9c8864d39704b3d264ef9dfbdc1bfcfd8f1b6bb9; cd rootDir;
+cd libcore; git cherry-pick 9c8864d39704b3d264ef9dfbdc1bfcfd8f1b6bb9; cd $rootDir;
 
 #Recompile
 ./Recompile.sh $1
