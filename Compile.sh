@@ -27,7 +27,7 @@ do
    cd $dir;
    git cherry-pick $gitCmd;
    exitValue=$?;
-   cd $rootdir;
+   cd $rootDir;
    
     if [[ ! $exitValue ]]; then
       echo "Error with cherry-pick $gitCmd in $dir";
