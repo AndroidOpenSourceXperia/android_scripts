@@ -13,7 +13,7 @@ else
 fi
 
 #Set patches directory
-rootDir=$PWD
+rootDir=$(echo $PWD)
 patchDir="hardware/ste/patches"
 
 # Cherry picks
