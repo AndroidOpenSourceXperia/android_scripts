@@ -1,2 +1,2 @@
-./repo sync -cq -j8
+git pull && ./repo sync -cq -j8
 
