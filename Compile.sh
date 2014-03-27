@@ -13,7 +13,7 @@ else
 fi
 
 #Set patches directory
-rootDir=$(echo $PWD)
+rootDir=$PWD
 patchDir="hardware/ste/patches"
 
 # Cherry picks
@@ -26,7 +26,7 @@ do
    
    cd $dir;
    git cherry-pick $gitCmd;
-   exitValue=$?
+   exitValue=$?;
    cd $rootdir;
    
     if [[ ! $? ]]; then
