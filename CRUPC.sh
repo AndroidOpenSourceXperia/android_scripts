@@ -8,7 +8,7 @@ if [[ $# = 1 ]]; then
   ;;
   esac
 else 
-   echo "ERROR: Number of options not correct. Usage: ./Compile.sh -u | -p | -s | -g"
+   echo "ERROR: Number of options not correct. Usage: ./CRUPC.sh -u | -p | -s | -g"
    exit 1;
 fi
 
