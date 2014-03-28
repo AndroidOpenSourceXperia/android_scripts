@@ -1,6 +1,6 @@
 #Set patches directory
 rootDir=$PWD
-patchDir="hardware/ste/patches"
+patchDir="device/sony/montblanc-common/hardware/patches"
 
 # Cherry picks
 echo "Cherry picking..."
