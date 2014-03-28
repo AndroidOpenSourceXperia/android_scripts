@@ -1,5 +1,4 @@
 #Compile
-
 if [[ $# = 1 ]]; then
   . build/envsetup.sh
   if [[ $? = 0 ]]; then
@@ -32,6 +31,6 @@ if [[ $# = 1 ]]; then
     exit 1;
   fi
 else
-  echo "ERROR: Number of options not correct. Usage: ./Recompile.sh -u | -p | -s | -g"
+  echo "ERROR: Number of options not correct. Usage: ./CompileROM.sh -u | -p | -s | -g"
   exit 1;
 fi

@@ -27,6 +27,6 @@ if [[ $# = 1 ]]; then
     exit 1;
   fi
 else
-  echo "ERROR: Number of options not correct. Usage: ./RecompileRamdisk.sh -u | -p | -s | -g"
+  echo "ERROR: Number of options not correct. Usage: ./CompileRamdisk.sh -u | -p | -s | -g"
   exit 1;
 fi
