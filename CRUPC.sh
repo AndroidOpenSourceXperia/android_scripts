@@ -12,4 +12,4 @@ else
    exit 1;
 fi
 
-./Clean.sh && ./Reset.sh && ./Update.sh && ./Compile.sh $1
+./Clean.sh && ./Reset.sh && ./Update.sh && ./Patch.sh && ./CompileROM.sh $1

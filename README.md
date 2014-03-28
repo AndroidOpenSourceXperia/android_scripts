@@ -9,10 +9,10 @@ QuickStart:
     cd aosp;
     repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.2_r2;
     ./Update.sh;
-    ./Compile.sh -u; (Xperia U)
-    ./Compile.sh -p; (Xperia P)   
-    ./Compile.sh -s; (Xperia Sola)
-    ./Compile.sh -g; (Xperia Go) 
+    ./Patch && ./CompileROM.sh -u; (Xperia U)
+    ./Patch && ./CompileROM.sh -p; (Xperia P)   
+    ./Patch && ./CompileROM.sh -s; (Xperia Sola)
+    ./Patch && ./CompileROM.sh -g; (Xperia Go) 
     
 Credits:
     
