@@ -11,16 +11,16 @@ if [[ $# = 1 ]]; then
     
     case $1 in
     -u)
-      lunch full_kumquat-userdebug && make otapackage -j12;
+      lunch full_kumquat-eng && make otapackage -j12;
     ;;
     -p)
-      lunch full_nypon-userdebug && make otapackage -j12;
+      lunch full_nypon-eng && make otapackage -j12;
     ;;
     -s)
-      lunch full_pepper-userdebug && make otapackage -j12;
+      lunch full_pepper-eng && make otapackage -j12;
     ;;
     -g)
-      lunch full_lotus-userdebug && make otapackage -j12;
+      lunch full_lotus-eng && make otapackage -j12;
     ;;
     *)
       echo "ERROR: Unknow option";
