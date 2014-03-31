@@ -4,7 +4,7 @@ TODO:
 
 
   1. Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
-  2. Recovery TWRP [USB and ADB left]
+  2. Recovery TWRP
   3. Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
   4. Format and cleanup all resources
   5. Final checks ands devices syncs
