@@ -1,34 +1,34 @@
                                                     THE MASTER PLAN
 
 TODO:
-  Check for not used files in config/ recovery/ in XU
-  Check that all common stuff is in montblanc-common and device stuff in devices trees
-  Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
-  Recovery TWRP
-  Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
-  Format and cleanup all resources
-  Adapt patches to AOSP
-  Final checks ands devices syncs
-  ALPHA BUILD!!!
-  Fix Audio
-  Fix OMX 
-  BETA BUILD!!!
-  Fix others bugs
-  RC BUILD!!!
-  Fix minors bugs
-  Optimization
-  STABLE BUILD!!!
-  Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
-  Fix FM Radio
-  Use F2FS
-  Build with Linario toolchain
-  NO BUGS BUILD!!!
+  1. Check for not used files in config/ recovery/ in XU
+  2. Check that all common stuff is in montblanc-common and device stuff in devices trees
+  3. Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
+  4. Recovery TWRP [USB and ADB left]
+  5. Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
+  6. Format and cleanup all resources
+  7. Adapt patches to AOSP
+  8. Final checks ands devices syncs
+  9. Fix Audio
+  10.ALPHA BUILD!!!
+  11.Fix OMX 
+  12.BETA BUILD!!!
+  13.Fix others bugs
+  14.RC BUILD!!!
+  15.Fix minors bugs
+  16.Optimization
+  17.STABLE BUILD!!!
+  18.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
+  19.Fix FM Radio
+  20.Use F2FS
+  21.Build with Linario toolchain
+  22.NO BUGS BUILD!!!
 
   
 DONE:
-  Split system.prop between coomon and device tree (XU)
-  Check that all devices have correcr LCD density and Graphics buffers
-  Check that common vendor stuff is in montblanc-common and device stuff in vendor devices trees
-  Check that all devices have proper charging animation
-  Check that all devices have proper bootlogo
-  Check elf3 binaries
+  1.Split system.prop between coomon and device tree (XU)
+  2.Check that all devices have correcr LCD density and Graphics buffers
+  3.Check that common vendor stuff is in montblanc-common and device stuff in vendor devices trees
+  4.Check that all devices have proper charging animation
+  5.Check that all devices have proper bootlogo
+  6.Check elf3 binaries
