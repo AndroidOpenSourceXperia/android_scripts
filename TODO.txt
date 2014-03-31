@@ -1,34 +1,38 @@
                                                     THE MASTER PLAN
 
 TODO:
-  Check for not used files in config/ recovery/ in XU
-  Check that all common stuff is in montblanc-common and device stuff in devices trees
-  Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
-  Recovery TWRP
-  Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
-  Format and cleanup all resources
-  Adapt patches to AOSP
-  Final checks ands devices syncs
-  ALPHA BUILD!!!
-  Fix Audio
-  Fix OMX 
-  BETA BUILD!!!
-  Fix others bugs
-  RC BUILD!!!
-  Fix minors bugs
-  Optimization
-  STABLE BUILD!!!
-  Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
-  Fix FM Radio
-  Use F2FS
-  Build with Linario toolchain
-  NO BUGS BUILD!!!
+
+
+  1. Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
+  2. Recovery TWRP
+  3. Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
+  4. Format and cleanup all resources
+  5. Final checks ands devices syncs
+  6. Fix all RIL related issues [Currently Calling bug and signal strenght]
+  7. Fix vendor tree for all the devices
+  8. ALPHA BUILD!!!
+  9. BETA BUILD!!!
+  10. Fix others bugs
+  11.RC BUILD!!!
+  12.Fix minors bugs
+  13.Optimization
+  14.STABLE BUILD!!!
+  15.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
+  16.Fix FM Radio
+  17.Use F2FS
+  18.Build with Linario toolchain
+  19.NO BUGS BUILD!!!
 
   
 DONE:
-  Split system.prop between coomon and device tree (XU)
-  Check that all devices have correcr LCD density and Graphics buffers
-  Check that common vendor stuff is in montblanc-common and device stuff in vendor devices trees
-  Check that all devices have proper charging animation
-  Check that all devices have proper bootlogo
-  Check elf3 binaries
+  1. Split system.prop between coomon and device tree
+  2. Check that all devices have correcr LCD density and Graphics buffers
+  3. Check that common vendor stuff is in montblanc-common and device stuff in vendor devices trees
+  4. Check that all devices have proper charging animation
+  5. Check that all devices have proper bootlogo
+  6. Check elf3 binaries
+  7. Check for not used files in config/ recovery/
+  8. Check that all common stuff is in montblanc-common and device stuff in devices trees
+  9. Adapt patches to AOSP
+  10.Fix Audio
+  11.Fix OMX
