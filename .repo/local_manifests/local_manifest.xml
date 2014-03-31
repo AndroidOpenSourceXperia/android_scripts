@@ -36,9 +36,6 @@
   <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master" groups="pdk" />
   <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master" groups="pdk" />
 
-  <project path="external/koush/Superuser"      name="koush/Superuser"                                              remote="github"     revision="master" />
-  <project path="external/koush/Widgets"        name="koush/Widgets"                                                remote="github"     revision="master" />
-  
   <project path="bootable/recovery"             name="omnirom/android_bootable_recovery"                            remote="github"     revision="android-4.4" />
 
   <project path="external/wpa_supplicant_8_ti"	name="CyanogenMod/android_external_wpa_supplicant_8_ti"             remote="github"     revision="cm-11.0" />
