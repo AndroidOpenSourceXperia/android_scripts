@@ -1,13 +1,12 @@
                                                     THE MASTER PLAN
 
 TODO:
-  1. Check for not used files in config/ recovery/ in XU
-  2. Check that all common stuff is in montblanc-common and device stuff in devices trees
+
+
   3. Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
   4. Recovery TWRP [USB and ADB left]
   5. Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
   6. Format and cleanup all resources
-  7. Adapt patches to AOSP
   8. Final checks ands devices syncs
   9. Fix Audio
   10.ALPHA BUILD!!!
@@ -32,3 +31,6 @@ DONE:
   4.Check that all devices have proper charging animation
   5.Check that all devices have proper bootlogo
   6.Check elf3 binaries
+  Check for not used files in config/ recovery/
+  Check that all common stuff is in montblanc-common and device stuff in devices trees
+  Adapt patches to AOSP
