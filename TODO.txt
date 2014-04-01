@@ -4,23 +4,22 @@ TODO:
 
 
   1. Split inits scripts in common and device specific. Use import init.${ro.blablabl}.rc for add device specific stuff
-  2. Recovery TWRP
-  3. Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
-  4. Format and cleanup all resources
-  5. Final checks ands devices syncs
-  6. Fix all RIL related issues [Currently Calling bug and signal strenght]
-  7. ALPHA BUILD!!!
-  8. BETA BUILD!!!
-  9. Fix others bugs
-  10.RC BUILD!!!
-  11.Fix minors bugs
-  12.Optimization
-  13.STABLE BUILD!!!
-  14.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
-  15.Fix FM Radio
-  16.Use F2FS
-  17.Build with Linario toolchain
-  18.NO BUGS BUILD!!!
+  2. Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
+  3. Format and cleanup all resources
+  4. Final checks ands devices syncs
+  5. Fix all RIL related issues [Currently Calling bug and signal strenght]
+  6. ALPHA BUILD!!!
+  7. BETA BUILD!!!
+  8. Fix others bugs
+  9. RC BUILD!!!
+  10.Fix minors bugs
+  11.Optimization
+  12.STABLE BUILD!!!
+  13.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
+  14.Fix FM Radio
+  15.Use F2FS
+  16.Build with Linario toolchain
+  17.NO BUGS BUILD!!!
 
   
 DONE:
@@ -36,3 +35,4 @@ DONE:
   10.Fix Audio
   11.Fix OMX
   12.Fix vendor tree for all the devices
+  13.Recovery TWRP
