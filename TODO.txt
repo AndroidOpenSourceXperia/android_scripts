@@ -9,19 +9,18 @@ TODO:
   4. Format and cleanup all resources
   5. Final checks ands devices syncs
   6. Fix all RIL related issues [Currently Calling bug and signal strenght]
-  7. Fix vendor tree for all the devices
-  8. ALPHA BUILD!!!
-  9. BETA BUILD!!!
-  10. Fix others bugs
-  11.RC BUILD!!!
-  12.Fix minors bugs
-  13.Optimization
-  14.STABLE BUILD!!!
-  15.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
-  16.Fix FM Radio
-  17.Use F2FS
-  18.Build with Linario toolchain
-  19.NO BUGS BUILD!!!
+  7. ALPHA BUILD!!!
+  8. BETA BUILD!!!
+  9. Fix others bugs
+  10.RC BUILD!!!
+  11.Fix minors bugs
+  12.Optimization
+  13.STABLE BUILD!!!
+  14.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
+  15.Fix FM Radio
+  16.Use F2FS
+  17.Build with Linario toolchain
+  18.NO BUGS BUILD!!!
 
   
 DONE:
@@ -36,3 +35,4 @@ DONE:
   9. Adapt patches to AOSP
   10.Fix Audio
   11.Fix OMX
+  12.Fix vendor tree for all the devices
