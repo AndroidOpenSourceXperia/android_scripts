@@ -14,13 +14,14 @@ TODO:
   9. RC BUILD!!!
   10.Fix minors bugs
   11.Optimization
+  16.Build with Linario toolchain
   12.STABLE BUILD!!!
   13.Fix FM Radio
   14.Use F2FS
   15.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/
                  https://groups.google.com/forum/#!searchin/linux-sunxi/mali/linux-sunxi/dYCL84IQH_Y/1ScJtgeqGzMJ
                  https://groups.google.com/forum/#!searchin/linux-sunxi/mali/linux-sunxi/QGFGvpsVfoQ/ax1OAPjQS6cJ
-  16.Build with Linario toolchain
+  16. Overclock CPU/GPU
   17.NO BUGS BUILD!!!
 
   
