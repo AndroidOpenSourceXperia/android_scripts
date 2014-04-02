@@ -17,7 +17,8 @@ TODO:
   12.STABLE BUILD!!!
   13.Fix FM Radio
   14.Use F2FS
-  15.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/? Not applicable on our kernel
+  15.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/
+                 https://groups.google.com/forum/#!searchin/linux-sunxi/mali/linux-sunxi/dYCL84IQH_Y/1ScJtgeqGzMJ
   16.Build with Linario toolchain
   17.NO BUGS BUILD!!!
 
