@@ -19,6 +19,7 @@ TODO:
   14.Use F2FS
   15.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/
                  https://groups.google.com/forum/#!searchin/linux-sunxi/mali/linux-sunxi/dYCL84IQH_Y/1ScJtgeqGzMJ
+                 https://groups.google.com/forum/#!searchin/linux-sunxi/mali/linux-sunxi/QGFGvpsVfoQ/ax1OAPjQS6cJ
   16.Build with Linario toolchain
   17.NO BUGS BUILD!!!
 
