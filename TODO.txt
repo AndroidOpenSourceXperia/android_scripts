@@ -15,11 +15,10 @@ TODO:
   10.Fix minors bugs
   11.Optimization
   12.STABLE BUILD!!!
-  13.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/?
-  14.Fix FM Radio
-  15.Use F2FS
-  16.Build with Linario toolchain
-  17.NO BUGS BUILD!!!
+  13.Fix FM Radio
+  14.Use F2FS
+  15.Build with Linario toolchain
+  16.NO BUGS BUILD!!!
 
   
 DONE:
@@ -36,3 +35,4 @@ DONE:
   11.Fix OMX
   12.Fix vendor tree for all the devices
   13.Recovery TWRP
+  14.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/? Not applicable on our kernel
