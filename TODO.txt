@@ -9,6 +9,11 @@ TODO:
   4. Final checks ands devices syncs
   5. Fix all RIL related issues [Currently Calling bug and signal strenght]
   6. ALPHA BUILD!!!
+     Fix A2DP:
+	      _95A31_: but you should be able to not care about avrcp 1.3 metadata, also those extensions for map etc,  this supported by android and bluez for android
+	      _95A31_:  what you need to do is prepare an alsa plugin that would be loaded by media stack this plugin must implemented our audio ipc,  you can have a look at android/hal-audio.c for reference
+	      _95A31_: I'd also leave qos handling for future
+	      _95A31_: alternative option would be to make OMX (this is used on ste novathor plaatform, right?) use android audio hal instead of alsa for a2dp
   7. BETA BUILD!!!
   8. Fix others bugs
   9. RC BUILD!!!
