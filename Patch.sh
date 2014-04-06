@@ -42,3 +42,7 @@ done
 
 # We use CyanogenMod su binary, remove AOSP one in order to avoid conflicts
 rm system/extras/su/Android.mk &> /dev/null
+
+# We use TI stuff and some file are not included in AOSP
+curl https://raw.githubusercontent.com/CyanogenMod/android_system_netd/cm-11.0/SoftapControllerTI.cpp > system/netd/SoftapControllerTI.cpp
+curl https://raw.githubusercontent.com/CyanogenMod/android_system_netd/cm-11.0/SoftapControllerTI.h > system/netd/SoftapControllerTI.h
