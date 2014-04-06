@@ -1,7 +1,8 @@
                                                     THE MASTER PLAN
 
 TODO: 
-
+- Fix Wi-Fi tethering (Easy)
+- Custom bootanimation and/or bootlogo (Easy)
 -- V0 BUILD!!!
 
 - Fix A2DP (Hard)
