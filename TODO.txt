@@ -1,49 +1,32 @@
                                                     THE MASTER PLAN
 
 TODO: 
-- Final checks ands devices syncs (Easy)
--- ALPHA 1 BUILD!!!
+
+-- V0 BUILD!!!
 
 - Fix A2DP (Hard)
 - Fix Wi-Fi Direct (Mid/Hard)
 - Fix reported bugs (Mid)
--- ALPHA 2 BUILD!!!
+- Final checks ands devices syncs (Easy)
+-- V1 BUILD!!!
 
+- Fix OTG
 - Fix reported bugs (Mid)
 - Fix FM Radio (Hard)
-- Add overclock CPU/GPU
+- Add overclock CPU/GPU (Mid)
+- Final checks ands devices syncs (Easy)
+- Format and modularize resources (Mid/Hard)
+-- V2 BUILD!!!
 
--- BETA BUILD!!!
+- Fix reported bugs (Mid)
+- Cleanup and stabilize code (Mid/Hard)
+- Use F2FS (Mid/Hard)
+- Mali dinamic memory (Mid/Hard)
+- Optimization (Easy/Mid)
+-- V3 BUILD!!!
 
-- Split inits scripts in common and device specific. Use init.ste-ericsson.device.rc for device specific stuff.
-- Format and cleanup all resources
-  9. RC BUILD!!!
-  10.Fix minors bugs
-  11.Optimization
-  16.Build with Linario toolchain
-  12.STABLE BUILD!!!
+- Fix reported bugs (Mid)
+-- FINAL BUILD!!!
 
-  14.Use F2FS
-  15.Check about http://forum.xda-developers.com/xperia-u/general/dev-enabling-mali400-dynamic-memory-t2689597/
-                 https://groups.google.com/forum/#!searchin/linux-sunxi/mali/linux-sunxi/dYCL84IQH_Y/1ScJtgeqGzMJ
-                 https://groups.google.com/forum/#!searchin/linux-sunxi/mali/linux-sunxi/QGFGvpsVfoQ/ax1OAPjQS6cJ
-  16. Overclock CPU/GPU
-  17.NO BUGS BUILD!!!
 
-  
 DONE:
-  1. Split system.prop between coomon and device tree
-  2. Check that all devices have correcr LCD density and Graphics buffers
-  3. Check that common vendor stuff is in montblanc-common and device stuff in vendor devices trees
-  4. Check that all devices have proper charging animation
-  5. Check that all devices have proper bootlogo
-  6. Check elf3 binaries
-  7. Check for not used files in config/ recovery/
-  8. Check that all common stuff is in montblanc-common and device stuff in devices trees
-  9. Adapt patches to AOSP
-  10.Fix Audio
-  11.Fix OMX
-  12.Fix vendor tree for all the devices
-  13.Recovery TWRP
-- Legacy Sensor check [http://review.cyanogenmod.org/#/c/59311/]
-- Fix all RIL related issues
