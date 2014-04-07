@@ -10,16 +10,16 @@ if [[ $# = 1 ]]; then
     export USE_CCACHE=1
     case $1 in
     -u)
-      lunch full_kumquat-user && make otapackage -j12;
+      lunch full_kumquat-eng && make otapackage -j12;
     ;;
     -p)
-      lunch full_nypon-user && make otapackage -j12;
+      lunch full_nypon-eng && make otapackage -j12;
     ;;
     -s)
-      lunch full_pepper-user && make otapackage -j12;
+      lunch full_pepper-eng && make otapackage -j12;
     ;;
     -g)
-      lunch full_lotus-user && make otapackage -j12;
+      lunch full_lotus-eng && make otapackage -j12;
     ;;
     *)
       echo "ERROR: Unknow option";
