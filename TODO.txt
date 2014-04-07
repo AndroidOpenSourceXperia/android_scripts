@@ -2,7 +2,8 @@
 
 TODO: 
 - Fix Wi-Fi tethering (Easy) => DONE
-- Custom bootanimation and/or bootlogo (Easy) => WIP
+- Custom bootanimation and/or bootlogo (Easy) => DONE
+- Fix Apps in SD => DONE
 -- V0 BUILD!!!
 
 - Fix A2DP (Hard)
