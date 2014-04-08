@@ -3,7 +3,11 @@
 if [[ $# = 1 ]]; then
   . build/envsetup.sh
   if [[ $? = 0 ]]; then
-    
+    # Use local Java Development Kit 6
+    if (( $(java -version 2>&1 | grep version | cut -f2 -d".") > 6 )); then
+       echo "Using local JDK 6..."
+       export JAVA_HOME=$(realpath ../jdk1.6.0_45);
+    fi
     case $1 in
     -u)
       lunch full_kumquat-eng && make bootimage;
