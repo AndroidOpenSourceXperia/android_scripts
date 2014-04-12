@@ -22,6 +22,8 @@
   <remove-project name="device/samsung/manta"                   groups="device,manta" />
   <remove-project name="platform/bootable/recovery"             groups="pdk" />
   <remove-project name="platform/external/bluetooth/bluedroid"  groups="pdk" />
+  
+  <remove-project name="platform/packages/apps/Music" />
 
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
@@ -45,6 +47,7 @@
 
   <project path="external/wpa_supplicant_8_ti"	name="CyanogenMod/android_external_wpa_supplicant_8_ti"             remote="github"     revision="cm-11.0" />
   <project path="packages/apps/Torch"           name="CyanogenMod/android_packages_apps_Torch"                      remote="github"     revision="cm-11.0" />
+  <project path="packages/apps/Apollo"          name="CyanogenMod/android_packages_apps_Apollo"                     remote="github"     revision="cm-11.0" />
   <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
   <project path="hardware/qcom/fm"              name="CyanogenMod/android_hardware_qcom_fm"                         remote="github"     revision="cm-11.0" />
   
