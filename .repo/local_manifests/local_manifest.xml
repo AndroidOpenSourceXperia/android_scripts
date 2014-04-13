@@ -23,10 +23,7 @@
   <remove-project name="platform/bootable/recovery"             groups="pdk" />
   <remove-project name="platform/external/bluetooth/bluedroid"  groups="pdk" />
   
-  <remove-project name="platform/external/openssl"              groups="pdk" />
-  
   <remove-project name="platform/packages/apps/Music" />
-
 
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
@@ -59,7 +56,5 @@
   
   <project path="external/busybox"              name="CyanogenMod/android_external_busybox"                         remote="github"     revision="cm-11.0" />
   <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
-  
-  <project path="external/openssl"              name="platform/external/openssl"                                    remote="aosp"       revision="master"      groups="pdk" />
   
 </manifest>
