@@ -36,7 +36,7 @@
 
   <project path="vendor/google"                 name="AndroidOpenSourceXperia/android_vendor_google"                remote="github"     revision="master" />
 
-  <project path="external/bluetooth/bluez"      name="bluetooth/bluez"                                              remote="kernel"     revision="refs/tags/5.17" groups="pdk" />
+  <project path="external/bluetooth/bluez"      name="bluetooth/bluez"                                              remote="kernel"     revision="refs/tags/5.18" groups="pdk" />
   <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master"         groups="pdk" />
   <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master"         groups="pdk" />
 
