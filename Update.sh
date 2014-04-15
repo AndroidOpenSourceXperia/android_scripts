@@ -7,5 +7,6 @@ curl https://raw.githubusercontent.com/CyanogenMod/android_hardware_qcom_wlan/cm
 curl https://raw.githubusercontent.com/CyanogenMod/android_system_netd/cm-11.0/SoftapControllerTI.cpp > system/netd/SoftapControllerTI.cpp
 curl https://raw.githubusercontent.com/CyanogenMod/android_system_netd/cm-11.0/SoftapControllerTI.h > system/netd/SoftapControllerTI.h
 
-# APN list
-curl https://raw.githubusercontent.com/CyanogenMod/android_vendor_cm/cm-11.0/prebuilt/common/etc/apns-conf.xml > device/sony/montblanc-common/config/apns-conf.xml
+# APNs list
+rm -rf device/generic/goldfish/data/etc/apns-conf.xml
+curl https://raw.githubusercontent.com/CyanogenMod/android_vendor_cm/cm-11.0/prebuilt/common/etc/apns-conf.xml > device/generic/goldfish/data/etc/apns-conf.xml
