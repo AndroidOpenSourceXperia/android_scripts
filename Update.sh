@@ -8,5 +8,4 @@ curl https://raw.githubusercontent.com/CyanogenMod/android_system_netd/cm-11.0/S
 curl https://raw.githubusercontent.com/CyanogenMod/android_system_netd/cm-11.0/SoftapControllerTI.h > system/netd/SoftapControllerTI.h
 
 # APNs list
-rm -rf device/generic/goldfish/data/etc/apns-conf.xml
 curl https://raw.githubusercontent.com/CyanogenMod/android_vendor_cm/cm-11.0/prebuilt/common/etc/apns-conf.xml > device/generic/goldfish/data/etc/apns-conf.xml
