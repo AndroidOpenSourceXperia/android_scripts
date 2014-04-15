@@ -8,7 +8,7 @@
           fetch="https://code.google.com/p/" />
   
   <remote name="github"
-           fetch="https://github.com/" />
+          fetch="https://github.com/" />
            
   <remove-project name="device/asus/deb"                        groups="device,flo" />
   <remove-project name="device/asus/flo"                        groups="device,flo" />
