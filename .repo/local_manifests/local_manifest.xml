@@ -24,6 +24,7 @@
   <remove-project name="platform/external/bluetooth/bluedroid"  groups="pdk" />
   
   <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/Browser" />
 
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
@@ -50,6 +51,7 @@
   <project path="packages/apps/Apollo"          name="omnirom/android_packages_apps_Apollo"                         remote="github"     revision="android-4.4" />
   <project path="packages/apps/DSPManager"      name="omnirom/android_packages_apps_DSPManager"                     remote="github"     revision="android-4.4" />
   <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
+  <project path="packages/apps/Browser"   name="CyanogenMod/android_packages_apps_Browser"                    remote="github"     revision="cm-11.0" />
   <project path="hardware/qcom/fm"              name="CyanogenMod/android_hardware_qcom_fm"                         remote="github"     revision="cm-11.0" />
   
   <project path="external/nano"                 name="CyanogenMod/android_external_nano"                            remote="github"     revision="cm-11.0" />
