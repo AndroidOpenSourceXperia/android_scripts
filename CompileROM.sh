@@ -7,7 +7,6 @@ if [[ $# = 1 ]]; then
        echo "Using local JDK 6..."
        export JAVA_HOME=$(realpath ../jdk1.6.0_45);
     fi
-    export USE_CCACHE=1
     case $1 in
     -u)
       lunch full_kumquat-eng && make otapackage -j12;
