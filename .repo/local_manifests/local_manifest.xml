@@ -62,6 +62,7 @@
   <project path="frameworks/opt/telephony"                       name="AndroidOpenSourceXperia/android_frameworks_opt_telephony"                      remote="github"     revision="master" />
   <project path="hardware/libhardware"                           name="AndroidOpenSourceXperia/android_hardware_libhardware"                          remote="github"     revision="master" />
   <project path="hardware/libhardware_legacy"                    name="AndroidOpenSourceXperia/android_hardware_libhardware_legacy"                   remote="github"     revision="master" />
+  <project path="packages/apps/Bluetooth"                          name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth"                       remote="github"     revision="master" />
   <project path="packages/apps/Camera2"                          name="AndroidOpenSourceXperia/android_packages_apps_Camera2"                         remote="github"     revision="master" />
   <project path="packages/apps/Dialer"                           name="AndroidOpenSourceXperia/android_packages_apps_Dialer"                          remote="github"     revision="master" />
   <project path="packages/apps/Launcher3"                        name="AndroidOpenSourceXperia/android_packages_apps_Launcher3"                       remote="github"     revision="master" />
