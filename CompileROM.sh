@@ -1,6 +1,3 @@
-# We use CyanogenMod su binary, remove AOSP one in order to avoid conflicts
-rm system/extras/su/Android.mk &> /dev/null
-
 #Compile
 if [[ $# = 1 ]]; then
   . build/envsetup.sh
