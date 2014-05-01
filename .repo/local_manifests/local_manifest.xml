@@ -46,7 +46,6 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/netd" />
-  <remove-project name="platform/system/extras/su" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/external/openssl" />
   <remove-project name="platform/external/chromium_org/third_party/openssl" />
