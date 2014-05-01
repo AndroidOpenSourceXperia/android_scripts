@@ -42,6 +42,6 @@ if [[ $# = 1 ]]; then
     exit -1;
   fi
 else
-  echo "ERROR: Number of options not correct. Usage: ./CRUPC.sh -u | -p | -s | -g | -ru | -rp | -rs | -rg"
+  echo "ERROR: Number of options not correct. Usage: ./CompileROM.sh -u | -p | -s | -g | -ru | -rp | -rs | -rg"
   exit -1;
 fi

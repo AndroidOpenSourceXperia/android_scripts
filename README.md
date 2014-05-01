@@ -8,10 +8,11 @@ QuickStart:
     git clone https://github.com/AndroidOpenSourceXperia/android_scripts.git -b kk-dev aosx;
     cd aosx;
     repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.2_r2;
-    ./AOSX.sh -u; (Xperia U)
-    ./AOSX.sh -p; (Xperia P)   
-    ./AOSX.sh -s; (Xperia Sola)
-    ./AOSX.sh -g; (Xperia Go) 
+    ./Update.sh;
+    ./CompileROM.sh -u; (Xperia U)
+    ./CompileROM.sh -p; (Xperia P)   
+    ./CompileROM.sh -s; (Xperia Sola)
+    ./CompileROM.sh -g; (Xperia Go) 
     
 Credits:
     
