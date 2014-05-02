@@ -102,6 +102,7 @@
   <project path="packages/apps/DSPManager"      name="omnirom/android_packages_apps_DSPManager"                     remote="github"     revision="android-4.4" />
 
   <project path="packages/apps/Torch"           name="CyanogenMod/android_packages_apps_Torch"                      remote="github"     revision="cm-11.0" />
+  <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
   <project path="packages/apps/Browser"         name="CyanogenMod/android_packages_apps_Browser"                    remote="github"     revision="cm-11.0" />
   
   <project path="external/wpa_supplicant_8_ti"	name="CyanogenMod/android_external_wpa_supplicant_8_ti"             remote="github"     revision="cm-11.0" />
