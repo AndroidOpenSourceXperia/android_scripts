@@ -33,6 +33,7 @@
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/VoiceDialer" />
+  <remove-project name="platform/packages/apps/InCallUI" />
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
@@ -69,6 +70,7 @@
   <project path="packages/apps/Launcher3"                        name="AndroidOpenSourceXperia/android_packages_apps_Launcher3"                       remote="github"     revision="master" />
   <project path="packages/apps/Settings"                         name="AndroidOpenSourceXperia/android_packages_apps_Settings"                        remote="github"     revision="master" />
   <project path="packages/apps/VoiceDialer"                      name="AndroidOpenSourceXperia/android_packages_apps_VoiceDialer"                     remote="github"     revision="master" />
+  <project path="packages/apps/InCallUI"                         name="AndroidOpenSourceXperia/android_packages_apps_InCallUI"                        remote="github"     revision="master" />
   <project path="packages/providers/TelephonyProvider"           name="AndroidOpenSourceXperia/android_packages_providers_TelephonyProvider"          remote="github"     revision="master" />
   <project path="packages/services/Telephony"                    name="AndroidOpenSourceXperia/android_packages_services_Telephony"                   remote="github"     revision="master" />
   <project path="system/vold"                                    name="AndroidOpenSourceXperia/android_system_vold"                                   remote="github"     revision="master" />
