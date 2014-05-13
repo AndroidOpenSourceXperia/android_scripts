@@ -57,6 +57,7 @@
   </project>
   <project path="bionic"                                         name="AndroidOpenSourceXperia/android_bionic"                                        remote="github"     revision="master" />
   <project path="external/chromium_org/third_party/openssl"      name="AndroidOpenSourceXperia/android_external_chromium_org_third_party_openssl"     remote="github"     revision="master" />
+  <project path="external/crda"                                  name="CyanogenMod/android_external_crda"                                             remote="github"     revision="cm-11.0" />
   <project path="external/openssl"                               name="AndroidOpenSourceXperia/android_external_openssl"                              remote="github"     revision="master" />
   <project path="frameworks/av"                                  name="AndroidOpenSourceXperia/android_frameworks_av"                                 remote="github"     revision="master" />
   <project path="frameworks/base"                                name="AndroidOpenSourceXperia/android_frameworks_base"                               remote="github"     revision="master" />
