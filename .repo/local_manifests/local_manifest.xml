@@ -53,6 +53,7 @@
   <remove-project name="platform/external/chromium_org/third_party/openssl" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
+  <remove-project name="platform/art" />
   
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
@@ -84,7 +85,7 @@
   <project path="system/media"                                   name="AndroidOpenSourceXperia/android_system_media"                                  remote="github"     revision="master" />
   <project path="system/core"                                    name="AndroidOpenSourceXperia/android_system_core"                                   remote="github"     revision="master" />
   <project path="system/extras"                                  name="AndroidOpenSourceXperia/android_system_extras"                                 remote="github"     revision="master" />  
-
+  <project path="art"                                            name="AndroidOpenSourceXperia/android_art"                                           remote="github"     revision="master" />   
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
   <project path="device/sony/pepper"            name="AndroidOpenSourceXperia/android_device_sony_pepper"           remote="github"     revision="master" />
