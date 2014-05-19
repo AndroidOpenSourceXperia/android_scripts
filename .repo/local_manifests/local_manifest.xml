@@ -52,8 +52,6 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/external/openssl" />
   <remove-project name="platform/external/chromium_org/third_party/openssl" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
   <remove-project name="platform/art" />
   
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master"/>
