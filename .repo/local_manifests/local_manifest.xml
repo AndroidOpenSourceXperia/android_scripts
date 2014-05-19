@@ -69,6 +69,7 @@
   <project path="frameworks/base"                                name="AndroidOpenSourceXperia/android_frameworks_base"                               remote="github"     revision="master" />
   <project path="frameworks/native"                              name="AndroidOpenSourceXperia/android_frameworks_native"                             remote="github"     revision="master" />
   <project path="frameworks/opt/telephony"                       name="AndroidOpenSourceXperia/android_frameworks_opt_telephony"                      remote="github"     revision="master" />
+  <project path="frameworks/rs"                                  name="AndroidOpenSourceXperia/android_frameworks_rs"                                 remote="github"     revision="master" />
   <project path="hardware/libhardware"                           name="AndroidOpenSourceXperia/android_hardware_libhardware"                          remote="github"     revision="master" />
   <project path="hardware/libhardware_legacy"                    name="AndroidOpenSourceXperia/android_hardware_libhardware_legacy"                   remote="github"     revision="master" />
   <project path="packages/apps/Bluetooth"                        name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth"                       remote="github"     revision="master" />
