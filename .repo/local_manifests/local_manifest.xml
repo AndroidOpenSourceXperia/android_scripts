@@ -53,7 +53,7 @@
   <remove-project name="platform/external/chromium_org/third_party/openssl" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
   
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revisin="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master"/>
 
   <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="master" >
   <copyfile src="core/root.mk" dest="Makefile" />
