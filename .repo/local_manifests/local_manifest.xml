@@ -54,6 +54,7 @@
   <remove-project name="platform/external/chromium_org/third_party/openssl" />
   <remove-project name="platform/art" />
   <remove-project name="platform/external/valgrind" />
+  <remove-project name="platform/external/libsepol" />
   
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
@@ -123,6 +124,7 @@
   <project path="external/libncurses"           name="CyanogenMod/android_external_libncurses"                      remote="github"     revision="cm-11.0" />
   
   <project path="external/busybox"              name="CyanogenMod/android_external_busybox"                         remote="github"     revision="cm-11.0" />
+  <project name="external/libsepol"             name="CyanogenMod/android_external_libsepol"                        remote="github"     revision="cm-11.0" />
   <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
   
 </manifest>
