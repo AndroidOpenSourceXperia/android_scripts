@@ -124,7 +124,7 @@
   <project path="external/libncurses"           name="CyanogenMod/android_external_libncurses"                      remote="github"     revision="cm-11.0" />
   
   <project path="external/busybox"              name="CyanogenMod/android_external_busybox"                         remote="github"     revision="cm-11.0" />
-  <project name="external/libsepol"             name="CyanogenMod/android_external_libsepol"                        remote="github"     revision="cm-11.0" />
+  <project path="external/libsepol"             name="CyanogenMod/android_external_libsepol"                        remote="github"     revision="cm-11.0" />
   <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
   
 </manifest>
