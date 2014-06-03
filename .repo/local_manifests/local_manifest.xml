@@ -59,7 +59,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
   
-  <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="master" >
+  <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="4.4.3" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic"                                         name="AndroidOpenSourceXperia/android_bionic"                                        remote="github"     revision="master" />
