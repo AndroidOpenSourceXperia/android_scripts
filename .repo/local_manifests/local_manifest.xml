@@ -62,12 +62,12 @@
   <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="4.4.3" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic"                                         name="AndroidOpenSourceXperia/android_bionic"                                        remote="github"     revision="master" />
+  <project path="bionic"                                         name="AndroidOpenSourceXperia/android_bionic"                                        remote="github"     revision="4.4.3" />
   <project path="external/chromium_org/third_party/openssl"      name="AndroidOpenSourceXperia/android_external_chromium_org_third_party_openssl"     remote="github"     revision="master" />
   <project path="external/crda"                                  name="CyanogenMod/android_external_crda"                                             remote="github"     revision="cm-11.0" />
   <project path="external/openssl"                               name="AndroidOpenSourceXperia/android_external_openssl"                              remote="github"     revision="master" />
   <project path="frameworks/av"                                  name="AndroidOpenSourceXperia/android_frameworks_av"                                 remote="github"     revision="master" />
-  <project path="frameworks/base"                                name="AndroidOpenSourceXperia/android_frameworks_base"                               remote="github"     revision="master" />
+  <project path="frameworks/base"                                name="AndroidOpenSourceXperia/android_frameworks_base"                               remote="github"     revision="4.4.3" />
   <project path="frameworks/native"                              name="AndroidOpenSourceXperia/android_frameworks_native"                             remote="github"     revision="master" />
   <project path="frameworks/opt/telephony"                       name="AndroidOpenSourceXperia/android_frameworks_opt_telephony"                      remote="github"     revision="master" />
   <project path="frameworks/rs"                                  name="AndroidOpenSourceXperia/android_frameworks_rs"                                 remote="github"     revision="master" />
@@ -77,7 +77,7 @@
   <project path="packages/apps/Camera2"                          name="AndroidOpenSourceXperia/android_packages_apps_Camera2"                         remote="github"     revision="master" />
   <project path="packages/apps/Dialer"                           name="AndroidOpenSourceXperia/android_packages_apps_Dialer"                          remote="github"     revision="master" />
   <project path="packages/apps/Launcher3"                        name="AndroidOpenSourceXperia/android_packages_apps_Launcher3"                       remote="github"     revision="master" />
-  <project path="packages/apps/Settings"                         name="AndroidOpenSourceXperia/android_packages_apps_Settings"                        remote="github"     revision="master" />
+  <project path="packages/apps/Settings"                         name="AndroidOpenSourceXperia/android_packages_apps_Settings"                        remote="github"     revision="4.4.3" />
   <project path="packages/apps/VoiceDialer"                      name="AndroidOpenSourceXperia/android_packages_apps_VoiceDialer"                     remote="github"     revision="master" />
   <project path="packages/apps/InCallUI"                         name="AndroidOpenSourceXperia/android_packages_apps_InCallUI"                        remote="github"     revision="master" />
   <project path="packages/providers/TelephonyProvider"           name="AndroidOpenSourceXperia/android_packages_providers_TelephonyProvider"          remote="github"     revision="master" />
