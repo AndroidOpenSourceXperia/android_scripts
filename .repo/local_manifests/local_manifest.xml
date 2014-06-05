@@ -29,7 +29,6 @@
   <remove-project name="platform/packages/apps/Browser" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Dialer" />
-  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/VoiceDialer" />
@@ -59,36 +58,35 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
   
-  <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="4.4.3" >
+  <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="4.4.3_r1.1" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic"                                         name="AndroidOpenSourceXperia/android_bionic"                                        remote="github"     revision="4.4.3" />
-  <project path="external/chromium_org/third_party/openssl"      name="AndroidOpenSourceXperia/android_external_chromium_org_third_party_openssl"     remote="github"     revision="master" />
+  <project path="bionic"                                         name="AndroidOpenSourceXperia/android_bionic"                                        remote="github"     revision="4.4.3_r1.1" />
+  <project path="external/chromium_org/third_party/openssl"      name="AndroidOpenSourceXperia/android_external_chromium_org_third_party_openssl"     remote="github"     revision="4.4.3_r1.1" />
   <project path="external/crda"                                  name="CyanogenMod/android_external_crda"                                             remote="github"     revision="cm-11.0" />
-  <project path="external/openssl"                               name="AndroidOpenSourceXperia/android_external_openssl"                              remote="github"     revision="master" />
-  <project path="frameworks/av"                                  name="AndroidOpenSourceXperia/android_frameworks_av"                                 remote="github"     revision="master" />
-  <project path="frameworks/base"                                name="AndroidOpenSourceXperia/android_frameworks_base"                               remote="github"     revision="4.4.3" />
-  <project path="frameworks/native"                              name="AndroidOpenSourceXperia/android_frameworks_native"                             remote="github"     revision="master" />
-  <project path="frameworks/opt/telephony"                       name="AndroidOpenSourceXperia/android_frameworks_opt_telephony"                      remote="github"     revision="master" />
-  <project path="frameworks/rs"                                  name="AndroidOpenSourceXperia/android_frameworks_rs"                                 remote="github"     revision="master" />
-  <project path="hardware/libhardware"                           name="AndroidOpenSourceXperia/android_hardware_libhardware"                          remote="github"     revision="master" />
-  <project path="hardware/libhardware_legacy"                    name="AndroidOpenSourceXperia/android_hardware_libhardware_legacy"                   remote="github"     revision="master" />
-  <project path="packages/apps/Bluetooth"                        name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth"                       remote="github"     revision="master" />
-  <project path="packages/apps/Camera2"                          name="AndroidOpenSourceXperia/android_packages_apps_Camera2"                         remote="github"     revision="master" />
-  <project path="packages/apps/Dialer"                           name="AndroidOpenSourceXperia/android_packages_apps_Dialer"                          remote="github"     revision="master" />
-  <project path="packages/apps/Launcher3"                        name="AndroidOpenSourceXperia/android_packages_apps_Launcher3"                       remote="github"     revision="master" />
-  <project path="packages/apps/Settings"                         name="AndroidOpenSourceXperia/android_packages_apps_Settings"                        remote="github"     revision="4.4.3" />
-  <project path="packages/apps/VoiceDialer"                      name="AndroidOpenSourceXperia/android_packages_apps_VoiceDialer"                     remote="github"     revision="master" />
-  <project path="packages/apps/InCallUI"                         name="AndroidOpenSourceXperia/android_packages_apps_InCallUI"                        remote="github"     revision="master" />
-  <project path="packages/providers/TelephonyProvider"           name="AndroidOpenSourceXperia/android_packages_providers_TelephonyProvider"          remote="github"     revision="master" />
-  <project path="packages/services/Telephony"                    name="AndroidOpenSourceXperia/android_packages_services_Telephony"                   remote="github"     revision="master" />
-  <project path="system/vold"                                    name="AndroidOpenSourceXperia/android_system_vold"                                   remote="github"     revision="master" />
-  <project path="system/netd"                                    name="AndroidOpenSourceXperia/android_system_netd"                                   remote="github"     revision="master" />
-  <project path="system/media"                                   name="AndroidOpenSourceXperia/android_system_media"                                  remote="github"     revision="master" />
-  <project path="system/core"                                    name="AndroidOpenSourceXperia/android_system_core"                                   remote="github"     revision="master" />
-  <project path="system/extras"                                  name="AndroidOpenSourceXperia/android_system_extras"                                 remote="github"     revision="master" />  
-  <project path="art"                                            name="AndroidOpenSourceXperia/android_art"                                           remote="github"     revision="master" />
-  <project path="external/valgrind"                              name="AndroidOpenSourceXperia/android_external_valgrind"                             remote="github"     revision="master" />   
+  <project path="external/openssl"                               name="AndroidOpenSourceXperia/android_external_openssl"                              remote="github"     revision="4.4.3_r1.1" />
+  <project path="frameworks/av"                                  name="AndroidOpenSourceXperia/android_frameworks_av"                                 remote="github"     revision="4.4.3_r1.1" />
+  <project path="frameworks/base"                                name="AndroidOpenSourceXperia/android_frameworks_base"                               remote="github"     revision="4.4.3_r1.1" />
+  <project path="frameworks/native"                              name="AndroidOpenSourceXperia/android_frameworks_native"                             remote="github"     revision="4.4.3_r1.1" />
+  <project path="frameworks/opt/telephony"                       name="AndroidOpenSourceXperia/android_frameworks_opt_telephony"                      remote="github"     revision="4.4.3_r1.1" />
+  <project path="frameworks/rs"                                  name="AndroidOpenSourceXperia/android_frameworks_rs"                                 remote="github"     revision="4.4.3_r1.1" />
+  <project path="hardware/libhardware"                           name="AndroidOpenSourceXperia/android_hardware_libhardware"                          remote="github"     revision="4.4.3_r1.1" />
+  <project path="hardware/libhardware_legacy"                    name="AndroidOpenSourceXperia/android_hardware_libhardware_legacy"                   remote="github"     revision="4.4.3_r1.1" />
+  <project path="packages/apps/Bluetooth"                        name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth"                       remote="github"     revision="4.4.3_r1.1" />
+  <project path="packages/apps/Camera2"                          name="AndroidOpenSourceXperia/android_packages_apps_Camera2"                         remote="github"     revision="4.4.3_r1.1" />
+  <project path="packages/apps/Dialer"                           name="AndroidOpenSourceXperia/android_packages_apps_Dialer"                          remote="github"     revision="4.4.3_r1.1" />
+  <project path="packages/apps/Settings"                         name="AndroidOpenSourceXperia/android_packages_apps_Settings"                        remote="github"     revision="4.4.3_r1.1" />
+  <project path="packages/apps/VoiceDialer"                      name="AndroidOpenSourceXperia/android_packages_apps_VoiceDialer"                     remote="github"     revision="4.4.3_r1.1" />
+  <project path="packages/apps/InCallUI"                         name="AndroidOpenSourceXperia/android_packages_apps_InCallUI"                        remote="github"     revision="4.4.3_r1.1" />
+  <project path="packages/providers/TelephonyProvider"           name="AndroidOpenSourceXperia/android_packages_providers_TelephonyProvider"          remote="github"     revision="4.4.3_r1.1" />
+  <project path="packages/services/Telephony"                    name="AndroidOpenSourceXperia/android_packages_services_Telephony"                   remote="github"     revision="4.4.3_r1.1" />
+  <project path="system/vold"                                    name="AndroidOpenSourceXperia/android_system_vold"                                   remote="github"     revision="4.4.3_r1.1" />
+  <project path="system/netd"                                    name="AndroidOpenSourceXperia/android_system_netd"                                   remote="github"     revision="4.4.3_r1.1" />
+  <project path="system/media"                                   name="AndroidOpenSourceXperia/android_system_media"                                  remote="github"     revision="4.4.3_r1.1" />
+  <project path="system/core"                                    name="AndroidOpenSourceXperia/android_system_core"                                   remote="github"     revision="4.4.3_r1.1" />
+  <project path="system/extras"                                  name="AndroidOpenSourceXperia/android_system_extras"                                 remote="github"     revision="4.4.3_r1.1" />  
+  <project path="art"                                            name="AndroidOpenSourceXperia/android_art"                                           remote="github"     revision="4.4.3_r1.1" />
+  <project path="external/valgrind"                              name="AndroidOpenSourceXperia/android_external_valgrind"                             remote="github"     revision="4.4.3_r1.1" />   
   
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
@@ -108,7 +106,7 @@
   <project path="external/koush/Superuser"      name="koush/Superuser"                                              remote="github"     revision="master" />
   <project path="external/koush/Widgets"        name="koush/Widgets"                                                remote="github"     revision="master" />
   
-  <project path="bootable/recovery"             name="AndroidOpenSourceXperia/android_bootable_recovery"            remote="github"     revision="android-4.4" />
+  <project path="bootable/recovery"             name="AndroidOpenSourceXperia/android_bootable_recovery"            remote="github"     revision="master" />
 
   <project path="packages/apps/Apollo"          name="omnirom/android_packages_apps_Apollo"                         remote="github"     revision="android-4.4" />
   <project path="packages/apps/DSPManager"      name="omnirom/android_packages_apps_DSPManager"                     remote="github"     revision="android-4.4" />
