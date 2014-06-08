@@ -26,7 +26,6 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
   
-  <remove-project name="platform/packages/apps/Browser" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -111,8 +110,7 @@
   <project path="packages/apps/Torch"           name="omnirom/android_packages_apps_OmniTorch"                      remote="github"     revision="android-4.4" />
   
   <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
-  <project path="packages/apps/Browser"         name="CyanogenMod/android_packages_apps_Browser"                    remote="github"     revision="cm-11.0" />
-  
+
   <project path="external/wpa_supplicant_8_ti"	name="CyanogenMod/android_external_wpa_supplicant_8_ti"             remote="github"     revision="cm-11.0" />
   <project path="hardware/qcom/fm"              name="CyanogenMod/android_hardware_qcom_fm"                         remote="github"     revision="cm-11.0" />
   
