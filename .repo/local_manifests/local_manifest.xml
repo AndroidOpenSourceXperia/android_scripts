@@ -107,7 +107,7 @@
 
   <project path="packages/apps/Apollo"          name="omnirom/android_packages_apps_Apollo"                         remote="github"     revision="android-4.4" />
   <project path="packages/apps/DSPManager"      name="omnirom/android_packages_apps_DSPManager"                     remote="github"     revision="android-4.4" />
-  <project path="packages/apps/Torch"           name="omnirom/android_packages_apps_OmniTorch"                      remote="github"     revision="android-4.4" />
+  <project path="packages/apps/Torch"           name="CyanogenMod/android_packages_apps_Torch"                      remote="github"     revision="cm-11.0" />
   
   <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
 
