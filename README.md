@@ -5,9 +5,9 @@ Helpful scripts for build Android Open Source Project
 
 QuickStart:
 
-    git clone https://github.com/AndroidOpenSourceXperia/android_scripts.git -b 4.4.3 aosx;
+    git clone https://github.com/AndroidOpenSourceXperia/android_scripts.git -b 4.4.3_r1.1 aosx;
     cd aosx;
-    repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.3_r1.1;
+    ./repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.3_r1.1;
     ./Update.sh;
     ./CompileROM.sh -u; (Xperia U)
     ./CompileROM.sh -p; (Xperia P)   
