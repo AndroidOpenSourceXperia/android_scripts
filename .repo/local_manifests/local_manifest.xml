@@ -100,8 +100,8 @@
   <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master"         groups="pdk" />
   <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master"         groups="pdk" />
 
-  <project path="external/koush/Superuser"      name="koush/Superuser"                                              remote="github"     revision="master" />
-  <project path="external/koush/Widgets"        name="koush/Widgets"                                                remote="github"     revision="master" />
+  <project path="external/koush/Superuser"      name="AndroidOpenSourceXperia/Superuser"                                              remote="github"     revision="master" />
+  <project path="external/koush/Widgets"        name="AndroidOpenSourceXperia/Widgets"                                                remote="github"     revision="master" />
   
   <project path="bootable/recovery"             name="AndroidOpenSourceXperia/android_bootable_recovery"            remote="github"     revision="android-4.4" />
 
