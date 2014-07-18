@@ -20,12 +20,11 @@
   <remove-project name="device/lge/mako"                        groups="device,mako" />
   <remove-project name="device/lge/mako-kernel"                 groups="device,mako" />
   <remove-project name="device/samsung/manta"                   groups="device,manta" />
+  
   <remove-project name="platform/bootable/recovery"             groups="pdk" />
+  
   <remove-project name="platform/external/bluetooth/bluedroid"  groups="pdk" />
-  
-  <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/MusicFX" />
-  
+
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -54,7 +53,7 @@
   <remove-project name="platform/external/libsepol" />
   
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"       name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
   
   <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="kitkat" >
   <copyfile src="core/root.mk" dest="Makefile" />
@@ -105,9 +104,7 @@
   
   <project path="bootable/recovery"             name="AndroidOpenSourceXperia/android_bootable_recovery"            remote="github"     revision="android-4.4" />
 
-  <project path="packages/apps/Apollo"          name="omnirom/android_packages_apps_Apollo"                         remote="github"     revision="android-4.4" />
-  <project path="packages/apps/DSPManager"      name="omnirom/android_packages_apps_DSPManager"                     remote="github"     revision="android-4.4" />
-  <project path="packages/apps/OmniTorch"       name="omnirom/android_packages_apps_OmniTorch"                      remote="github"     revision="android-4.4" />
+   <project path="packages/apps/OmniTorch"      name="omnirom/android_packages_apps_OmniTorch"                      remote="github"     revision="android-4.4" />
   
   <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
 
