@@ -54,9 +54,6 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
   
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master"/>
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"       name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master"/>
-  
   <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="kitkat" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -123,5 +120,7 @@
   <project path="external/busybox"              name="CyanogenMod/android_external_busybox"                         remote="github"     revision="cm-11.0" />
   <project path="external/libsepol"             name="CyanogenMod/android_external_libsepol"                        remote="github"     revision="cm-11.0" />
   <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
-  
+ 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10"              name="JustArchi/Linaro"                    remote="github"     revision="4.10-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="JustArchi/Linaro"                    remote="github"     revision="4.10-androideabi" />
 </manifest>
