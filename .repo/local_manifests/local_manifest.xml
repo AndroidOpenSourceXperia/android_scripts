@@ -53,6 +53,8 @@
   <remove-project name="platform/external/libsepol" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
+  <remove-project name="platform/external/stlport" />
+  
   
   <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="kitkat" >
   <copyfile src="core/root.mk" dest="Makefile" />
@@ -123,4 +125,7 @@
  
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10"              name="JustArchi/Linaro"                    remote="github"     revision="4.10-eabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="JustArchi/Linaro"                    remote="github"     revision="4.10-androideabi" />
+  
+  <project path="external/stlport"              name="AndroidOpenSourceXperia/android_external_stlport"             remote="github"     revision="kitkat" />
+  
 </manifest>
