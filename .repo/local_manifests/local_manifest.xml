@@ -81,7 +81,7 @@
   <project path="art"                                            name="AndroidOpenSourceXperia/android_art"                                           remote="github"     revision="kitkat" />
   <project path="external/valgrind"                              name="AndroidOpenSourceXperia/android_external_valgrind"                             remote="github"     revision="kitkat" />   
   
-  <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
+  <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master-wifi" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
   <project path="device/sony/pepper"            name="AndroidOpenSourceXperia/android_device_sony_pepper"           remote="github"     revision="master" />
   <project path="device/sony/lotus"             name="AndroidOpenSourceXperia/android_device_sony_lotus"            remote="github"     revision="master" />
