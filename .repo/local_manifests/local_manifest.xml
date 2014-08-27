@@ -51,6 +51,7 @@
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/external/stlport" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
   
   
   <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="kitkat" >
@@ -79,7 +80,8 @@
   <project path="system/core"                                    name="AndroidOpenSourceXperia/android_system_core"                                   remote="github"     revision="kitkat" />
   <project path="system/extras"                                  name="AndroidOpenSourceXperia/android_system_extras"                                 remote="github"     revision="kitkat" />  
   <project path="art"                                            name="AndroidOpenSourceXperia/android_art"                                           remote="github"     revision="kitkat" />
-  <project path="external/valgrind"                              name="AndroidOpenSourceXperia/android_external_valgrind"                             remote="github"     revision="kitkat" />   
+  <project path="external/valgrind"                              name="AndroidOpenSourceXperia/android_external_valgrind"                             remote="github"     revision="kitkat" />
+  <project path="external/valgrind"                              name="AndroidOpenSourceXperia/android_external_wpa_supplicant_8"                     remote="github"     revision="kitkat" />   
   
   <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master-wifi" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
@@ -89,7 +91,7 @@
 
   <project path="kernel/sony/u8500"             name="AndroidOpenSourceXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
   <project path="vendor/sony"                   name="AndroidOpenSourceXperia/android_vendor_sony"                  remote="github"     revision="master" />
-  <project path="hardware/ste-sony"             name="AndroidOpenSourceXperia/android_hardware_ste-sony"            remote="github"     revision="master" />
+  <project path="hardware/ste-sony"             name="AndroidOpenSourceXperia/android_hardware_ste-sony"            remote="github"     revision="master-wifi" />
   
   <project path="external/bluetooth/bluez"      name="AndroidOpenSourceXperia/android_external_bluetooth_bluez"     remote="github"     revision="5.22" />
   <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master"         groups="pdk" />
