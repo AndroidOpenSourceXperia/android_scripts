@@ -26,6 +26,7 @@
   <remove-project name="platform/external/bluetooth/bluedroid"  groups="pdk" />
 
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Browser" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/VoiceDialer" />
@@ -67,7 +68,8 @@
   <project path="frameworks/rs"                                  name="AndroidOpenSourceXperia/android_frameworks_rs"                                 remote="github"     revision="kitkat" />
   <project path="hardware/libhardware"                           name="AndroidOpenSourceXperia/android_hardware_libhardware"                          remote="github"     revision="kitkat" />
   <project path="hardware/libhardware_legacy"                    name="AndroidOpenSourceXperia/android_hardware_libhardware_legacy"                   remote="github"     revision="kitkat" />
-  <project path="packages/apps/Bluetooth"                        name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth"                        remote="github"     revision="kitkat" />
+  <project path="packages/apps/Bluetooth"                        name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth"                       remote="github"     revision="kitkat" />
+  <project path="packages/apps/Browser"                          name="AndroidOpenSourceXperia/android_packages_apps_Browser"                         remote="github"     revision="kitkat" />
   <project path="packages/apps/Dialer"                           name="AndroidOpenSourceXperia/android_packages_apps_Dialer"                          remote="github"     revision="kitkat" />
   <project path="packages/apps/Settings"                         name="AndroidOpenSourceXperia/android_packages_apps_Settings"                        remote="github"     revision="kitkat" />
   <project path="packages/apps/VoiceDialer"                      name="AndroidOpenSourceXperia/android_packages_apps_VoiceDialer"                     remote="github"     revision="kitkat" />
@@ -97,8 +99,8 @@
   <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master"         groups="pdk" />
   <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master"         groups="pdk" />
 
-  <project path="external/koush/Superuser"      name="AndroidOpenSourceXperia/Superuser"                                              remote="github"     revision="master" />
-  <project path="external/koush/Widgets"        name="AndroidOpenSourceXperia/Widgets"                                                remote="github"     revision="master" />
+  <project path="external/koush/Superuser"      name="AndroidOpenSourceXperia/Superuser"                            remote="github"     revision="master" />
+  <project path="external/koush/Widgets"        name="AndroidOpenSourceXperia/Widgets"                              remote="github"     revision="master" />
   
   <project path="bootable/recovery"             name="AndroidOpenSourceXperia/android_bootable_recovery"            remote="github"     revision="android-4.4" />
 
@@ -107,7 +109,7 @@
   <project path="packages/apps/Apollo"          name="omnirom/android_packages_apps_Apollo"                         remote="github"     revision="android-4.4" />
   <project path="packages/apps/DSPManager"      name="omnirom/android_packages_apps_DSPManager"                     remote="github"     revision="android-4.4" />
   
-  <project path="packages/apps/OmniTorch"      name="omnirom/android_packages_apps_OmniTorch"                       remote="github"     revision="android-4.4" />
+  <project path="packages/apps/OmniTorch"       name="omnirom/android_packages_apps_OmniTorch"                      remote="github"     revision="android-4.4" />
   
   <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
 
