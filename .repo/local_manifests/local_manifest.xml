@@ -75,7 +75,6 @@
   <project path="packages/providers/TelephonyProvider"           name="AndroidOpenSourceXperia/android_packages_providers_TelephonyProvider"          remote="github"     revision="kitkat" />
   <project path="packages/services/Telephony"                    name="AndroidOpenSourceXperia/android_packages_services_Telephony"                   remote="github"     revision="kitkat" />
   <project path="system/vold"                                    name="AndroidOpenSourceXperia/android_system_vold"                                   remote="github"     revision="kitkat" />
-  <project path="system/netd"                                    name="AndroidOpenSourceXperia/android_system_netd"                                   remote="github"     revision="kitkat-wifi" />
   <project path="system/media"                                   name="AndroidOpenSourceXperia/android_system_media"                                  remote="github"     revision="kitkat" />
   <project path="system/core"                                    name="AndroidOpenSourceXperia/android_system_core"                                   remote="github"     revision="kitkat" />
   <project path="system/extras"                                  name="AndroidOpenSourceXperia/android_system_extras"                                 remote="github"     revision="kitkat" />  
@@ -83,7 +82,7 @@
   <project path="external/valgrind"                              name="AndroidOpenSourceXperia/android_external_valgrind"                             remote="github"     revision="kitkat" />
   <project path="external/wpa_supplicant_8"                              name="AndroidOpenSourceXperia/android_external_wpa_supplicant_8"                     remote="github"     revision="kitkat" />   
   
-  <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master-wifi" />
+  <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
   <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
   <project path="device/sony/pepper"            name="AndroidOpenSourceXperia/android_device_sony_pepper"           remote="github"     revision="master" />
   <project path="device/sony/lotus"             name="AndroidOpenSourceXperia/android_device_sony_lotus"            remote="github"     revision="master" />
@@ -91,7 +90,7 @@
 
   <project path="kernel/sony/u8500"             name="AndroidOpenSourceXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
   <project path="vendor/sony"                   name="AndroidOpenSourceXperia/android_vendor_sony"                  remote="github"     revision="master" />
-  <project path="hardware/ste-sony"             name="AndroidOpenSourceXperia/android_hardware_ste-sony"            remote="github"     revision="master-wifi" />
+  <project path="hardware/ste-sony"             name="AndroidOpenSourceXperia/android_hardware_ste-sony"            remote="github"     revision="master" />
   
   <project path="external/bluetooth/bluez"      name="AndroidOpenSourceXperia/android_external_bluetooth_bluez"     remote="github"     revision="5.22" />
   <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master"         groups="pdk" />
