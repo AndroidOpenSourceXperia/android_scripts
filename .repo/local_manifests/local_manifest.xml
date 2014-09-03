@@ -26,7 +26,6 @@
   <remove-project name="platform/external/bluetooth/bluedroid"  groups="pdk" />
 
   <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/Browser" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/VoiceDialer" />
@@ -53,7 +52,6 @@
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/external/stlport" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/chromium_org" />
   
   
   <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="kitkat" >
@@ -117,9 +115,6 @@
   <project path="external/libncurses"           name="CyanogenMod/android_external_libncurses"                      remote="github"     revision="cm-11.0" />
   
   <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
-  
-  <project path="packages/apps/Browser"        name="CyanogenMod/android_packages_apps_Browser"                    remote="github"     revision="cm-11.0" />
-  <project path="external/chromium_org"        name="CyanogenMod/android_external_chromium_org"                    remote="github"     revision="cm-11.0" />
   
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10"              name="JustArchi/Linaro"                    remote="github"     revision="4.10-eabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="JustArchi/Linaro"                    remote="github"     revision="4.10-androideabi" />
