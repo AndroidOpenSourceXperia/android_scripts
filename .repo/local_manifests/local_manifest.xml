@@ -52,6 +52,7 @@
   <remove-project name="platform/packages/apps/MusicFX" />
   <remove-project name="platform/external/stlport" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/webp" />
   
   
   <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="kitkat" >
@@ -120,5 +121,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="JustArchi/Linaro"                    remote="github"     revision="4.10-androideabi" />
   
   <project path="external/stlport"              name="AndroidOpenSourceXperia/android_external_stlport"             remote="github"     revision="kitkat" />
+  <project path="external/webp"                 name="AndroidOpenSourceXperia/android_external_webp"                remote="github"     revision="kitkat" />
   
 </manifest>
