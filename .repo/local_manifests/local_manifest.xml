@@ -45,7 +45,6 @@
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/netd" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/art" />
   <remove-project name="platform/external/valgrind" />
