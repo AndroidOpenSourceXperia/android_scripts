@@ -28,7 +28,6 @@
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/Browser" />
   <remove-project name="platform/packages/apps/VoiceDialer" />
   <remove-project name="platform/packages/apps/InCallUI" />
   <remove-project name="platform/build" />
@@ -70,7 +69,6 @@
   <project path="hardware/libhardware"                           name="AndroidOpenSourceXperia/android_hardware_libhardware"                          remote="github"     revision="kitkat" />
   <project path="hardware/libhardware_legacy"                    name="AndroidOpenSourceXperia/android_hardware_libhardware_legacy"                   remote="github"     revision="kitkat" />
   <project path="packages/apps/Bluetooth"                        name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth"                       remote="github"     revision="kitkat" />
-  <project path="packages/apps/Browser"                          name="AndroidOpenSourceXperia/android_packages_apps_Browser"                         remote="github"     revision="kitkat" />
   <project path="packages/apps/Dialer"                           name="AndroidOpenSourceXperia/android_packages_apps_Dialer"                          remote="github"     revision="kitkat" />
   <project path="packages/apps/Settings"                         name="AndroidOpenSourceXperia/android_packages_apps_Settings"                        remote="github"     revision="kitkat" />
   <project path="packages/apps/VoiceDialer"                      name="AndroidOpenSourceXperia/android_packages_apps_VoiceDialer"                     remote="github"     revision="kitkat" />
