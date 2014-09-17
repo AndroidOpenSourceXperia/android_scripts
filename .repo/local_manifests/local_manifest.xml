@@ -117,9 +117,9 @@
   
   <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
   
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10"              name="JustArchi/Linaro"                    remote="github"     revision="4.10-eabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="JustArchi/Linaro"                    remote="github"     revision="4.10-androideabi" />
-  
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-ArchiDroid"              name="ArchiDroid/Toolchain"          remote="github"      revision="linaro-4.9-arm-eabi" />
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-ArchiDroid" name="ArchiDroid/Toolchain"          remote="github"      revision="linaro-4.9-arm-linux-androideabi" />
+
   <project path="external/stlport"              name="AndroidOpenSourceXperia/android_external_stlport"             remote="github"     revision="kitkat" />
   <project path="external/webp"                 name="AndroidOpenSourceXperia/android_external_webp"                remote="github"     revision="kitkat" />
   
