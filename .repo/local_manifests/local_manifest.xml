@@ -101,7 +101,7 @@
   <project path="external/koush/Superuser"      name="AndroidOpenSourceXperia/Superuser"                            remote="github"     revision="master" />
   <project path="external/koush/Widgets"        name="AndroidOpenSourceXperia/Widgets"                              remote="github"     revision="master" />
   
-  <project path="bootable/recovery"             name="AndroidOpenSourceXperia/android_bootable_recovery"            remote="github"     revision="android-4.4" />
+  <project path="bootable/recovery"             name="AndroidOpenSourceXperia/android_bootable_recovery"            remote="github"     revision="master" />
 
   <project path="external/busybox"              name="AndroidOpenSourceXperia/android_external_busybox"             remote="github"     revision="cm-11.0" />
 
