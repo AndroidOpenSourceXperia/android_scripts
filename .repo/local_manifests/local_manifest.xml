@@ -14,7 +14,6 @@
      <remove-project name="device/generic/mini-emulator-mips" />
      <remove-project name="device/generic/mini-emulator-x86" />
      <remove-project name="device/generic/mips" />
-     <remove-project name="device/generic/qemu" />
      <remove-project name="device/generic/x86" />
      <remove-project name="device/generic/x86_64" />
      <remove-project name="device/google/accessory/arduino" />
