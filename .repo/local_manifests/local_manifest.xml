@@ -1,126 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-
-  <remote name="kernel"
-          fetch="git://git.kernel.org/pub/scm/" />
-
-  <remote name="googlecode"
-          fetch="https://code.google.com/p/" />
+  <manifest>
   
-  <remote name="github"
-          fetch="https://github.com/" />
-           
-  <remove-project name="device/asus/deb"                        groups="device,flo" />
-  <remove-project name="device/asus/flo"                        groups="device,flo" />
-  <remove-project name="device/asus/flo-kernel"                 groups="device,flo" />
-  <remove-project name="device/asus/grouper"                    groups="device,grouper" />
-  <remove-project name="device/asus/tilapia"                    groups="device,grouper" />
-  <remove-project name="device/lge/hammerhead"                  groups="device,hammerhead" />
-  <remove-project name="device/lge/hammerhead-kernel"           groups="device,hammerhead" />
-  <remove-project name="device/lge/mako"                        groups="device,mako" />
-  <remove-project name="device/lge/mako-kernel"                 groups="device,mako" />
-  <remove-project name="device/samsung/manta"                   groups="device,manta" />
-  
-  <remove-project name="platform/bootable/recovery"             groups="pdk" />
-  
-  <remove-project name="platform/external/bluetooth/bluedroid"  groups="pdk" />
-
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/Dialer" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/VoiceDialer" />
-  <remove-project name="platform/packages/apps/InCallUI" />
-  <remove-project name="platform/build" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/rs" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/netd" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/art" />
-  <remove-project name="platform/external/valgrind" />
-  <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/MusicFX" />
-  <remove-project name="platform/external/stlport" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/webp" />
-  
-  
-  <project path="build"                                          name="AndroidOpenSourceXperia/android_build"                                         remote="github"     revision="kitkat" >
-  <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  
-  <project path="bionic"                                         name="AndroidOpenSourceXperia/android_bionic"                                        remote="github"     revision="kitkat" />
-  <project path="external/crda"                                  name="AndroidOpenSourceXperia/android_external_crda"                                 remote="github"     revision="cm-11.0" />
-  <project path="frameworks/av"                                  name="AndroidOpenSourceXperia/android_frameworks_av"                                 remote="github"     revision="kitkat" />
-  <project path="frameworks/base"                                name="AndroidOpenSourceXperia/android_frameworks_base"                               remote="github"     revision="kitkat" />
-  <project path="frameworks/native"                              name="AndroidOpenSourceXperia/android_frameworks_native"                             remote="github"     revision="kitkat" />
-  <project path="frameworks/opt/telephony"                       name="AndroidOpenSourceXperia/android_frameworks_opt_telephony"                      remote="github"     revision="kitkat" />
-  <project path="frameworks/rs"                                  name="AndroidOpenSourceXperia/android_frameworks_rs"                                 remote="github"     revision="kitkat" />
-  <project path="hardware/libhardware"                           name="AndroidOpenSourceXperia/android_hardware_libhardware"                          remote="github"     revision="kitkat" />
-  <project path="hardware/libhardware_legacy"                    name="AndroidOpenSourceXperia/android_hardware_libhardware_legacy"                   remote="github"     revision="kitkat" />
-  <project path="packages/apps/Bluetooth"                        name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth"                       remote="github"     revision="kitkat" />
-  <project path="packages/apps/Dialer"                           name="AndroidOpenSourceXperia/android_packages_apps_Dialer"                          remote="github"     revision="kitkat" />
-  <project path="packages/apps/Settings"                         name="AndroidOpenSourceXperia/android_packages_apps_Settings"                        remote="github"     revision="kitkat" />
-  <project path="packages/apps/VoiceDialer"                      name="AndroidOpenSourceXperia/android_packages_apps_VoiceDialer"                     remote="github"     revision="kitkat" />
-  <project path="packages/apps/InCallUI"                         name="AndroidOpenSourceXperia/android_packages_apps_InCallUI"                        remote="github"     revision="kitkat" />
-  <project path="packages/providers/TelephonyProvider"           name="AndroidOpenSourceXperia/android_packages_providers_TelephonyProvider"          remote="github"     revision="kitkat" />
-  <project path="packages/services/Telephony"                    name="AndroidOpenSourceXperia/android_packages_services_Telephony"                   remote="github"     revision="kitkat" />
-  <project path="system/vold"                                    name="AndroidOpenSourceXperia/android_system_vold"                                   remote="github"     revision="kitkat" />
-  <project path="system/netd"                                    name="AndroidOpenSourceXperia/android_system_netd"                                   remote="github"     revision="kitkat" />
-  <project path="system/media"                                   name="AndroidOpenSourceXperia/android_system_media"                                  remote="github"     revision="kitkat" />
-  <project path="system/core"                                    name="AndroidOpenSourceXperia/android_system_core"                                   remote="github"     revision="kitkat" />
-  <project path="system/extras"                                  name="AndroidOpenSourceXperia/android_system_extras"                                 remote="github"     revision="kitkat" />  
-  <project path="art"                                            name="AndroidOpenSourceXperia/android_art"                                           remote="github"     revision="kitkat" />
-  <project path="external/valgrind"                              name="AndroidOpenSourceXperia/android_external_valgrind"                             remote="github"     revision="kitkat" />
-  <project path="external/wpa_supplicant_8"                              name="AndroidOpenSourceXperia/android_external_wpa_supplicant_8"                     remote="github"     revision="kitkat" />   
-  
-  <project path="device/sony/montblanc-common"  name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github"     revision="master" />
-  <project path="device/sony/kumquat"           name="AndroidOpenSourceXperia/android_device_sony_kumquat"          remote="github"     revision="master" />
-  <project path="device/sony/pepper"            name="AndroidOpenSourceXperia/android_device_sony_pepper"           remote="github"     revision="master" />
-  <project path="device/sony/lotus"             name="AndroidOpenSourceXperia/android_device_sony_lotus"            remote="github"     revision="master" />
-  <project path="device/sony/nypon"             name="AndroidOpenSourceXperia/android_device_sony_nypon"            remote="github"     revision="master" />
-
-  <project path="kernel/sony/u8500"             name="AndroidOpenSourceXperia/android_kernel_sony_u8500"            remote="github"     revision="master" />
-  <project path="vendor/sony"                   name="AndroidOpenSourceXperia/android_vendor_sony"                  remote="github"     revision="master" />
-  <project path="hardware/ste-sony"             name="AndroidOpenSourceXperia/android_hardware_ste-sony"            remote="github"     revision="master" />
-  <project path="vendor/google"                 name="AndroidOpenSourceXperia/android_vendor_google"                remote="github"     revision="master" />
-  <project path="external/bluetooth/bluez"      name="AndroidOpenSourceXperia/android_external_bluetooth_bluez"     remote="github"     revision="5.27" />
-  <project path="external/bluetooth/sbc"        name="bluetooth/sbc"                                                remote="kernel"     revision="master"         groups="pdk" />
-  <project path="external/bluetooth/glib"       name="aosp-bluez.glib"                                              remote="googlecode" revision="master"         groups="pdk" />
-
-  <project path="external/koush/Superuser"      name="AndroidOpenSourceXperia/Superuser"                            remote="github"     revision="master" />
-  <project path="external/koush/Widgets"        name="AndroidOpenSourceXperia/Widgets"                              remote="github"     revision="master" />
-  
-  <project path="bootable/recovery"             name="AndroidOpenSourceXperia/android_bootable_recovery"            remote="github"     revision="master" />
-
-  <project path="external/busybox"              name="AndroidOpenSourceXperia/android_external_busybox"             remote="github"     revision="cm-11.0" />
-
-  <project path="packages/apps/Apollo"          name="omnirom/android_packages_apps_Apollo"                         remote="github"     revision="android-4.4" />
-  <project path="packages/apps/DSPManager"      name="omnirom/android_packages_apps_DSPManager"                     remote="github"     revision="android-4.4" />
-  
-  <project path="packages/apps/OmniTorch"       name="omnirom/android_packages_apps_OmniTorch"                      remote="github"     revision="android-4.4" />
-  
-  <project path="packages/apps/CMFileManager"   name="CyanogenMod/android_packages_apps_CMFileManager"              remote="github"     revision="cm-11.0" />  
-
-  <project path="external/nano"                 name="CyanogenMod/android_external_nano"                            remote="github"     revision="cm-11.0" />
-  <project path="external/libncurses"           name="CyanogenMod/android_external_libncurses"                      remote="github"     revision="cm-11.0" />
-  
-  <project path="external/bash"                 name="CyanogenMod/android_external_bash"                            remote="github"     revision="cm-11.0" />
-  
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-ArchiDroid"              name="ArchiDroid/Toolchain"          remote="github"      revision="linaro-4.9-arm-eabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-ArchiDroid" name="ArchiDroid/Toolchain"          remote="github"      revision="linaro-4.9-arm-linux-androideabi" />
-
-  <project path="external/stlport"              name="AndroidOpenSourceXperia/android_external_stlport"             remote="github"     revision="kitkat" />
-  <project path="external/webp"                 name="AndroidOpenSourceXperia/android_external_webp"                remote="github"     revision="kitkat" />
-  
+     <remote name="kernel" fetch="git://git.kernel.org/pub/scm/" />
+     <remote name="googlecode" fetch="https://code.google.com/p/" />
+     <remote name="github" fetch="https://github.com/" />
+     
+     <remove-project name="device/asus/deb" />
+     <remove-project name="device/asus/flo" />
+     <remove-project name="device/asus/flo-kernel" />
+     <remove-project name="device/asus/fugu" />
+     <remove-project name="device/asus/fugu-kernel" />
+     <remove-project name="device/asus/grouper" />
+     <remove-project name="device/asus/tilapia" />
+     <remove-project name="device/generic/arm64" />
+     <remove-project name="device/generic/goldfish" />
+     <remove-project name="device/generic/mini-emulator-arm64" />
+     <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+     <remove-project name="device/generic/mini-emulator-mips" />
+     <remove-project name="device/generic/mini-emulator-x86" />
+     <remove-project name="device/generic/mini-emulator-x86_64" />
+     <remove-project name="device/generic/mips" />
+     <remove-project name="device/generic/qemu" />
+     <remove-project name="device/generic/x86" />
+     <remove-project name="device/generic/x86_64" />
+     <remove-project name="device/google/accessory/arduino" />
+     <remove-project name="device/google/accessory/demokit" />
+     <remove-project name="device/google/atv" />
+     <remove-project name="device/htc/flounder" />
+     <remove-project name="device/htc/flounder-kernel" />
+     <remove-project name="device/lge/hammerhead" />
+     <remove-project name="device/lge/hammerhead-kernel" />
+     <remove-project name="device/lge/mako" />
+     <remove-project name="device/lge/mako-kernel" />
+     <remove-project name="device/moto/shamu" />
+     <remove-project name="device/moto/shamu-kernel" />
+     <remove-project name="device/samsung/manta" />
+    
+     
+     <remove-project name="platform/bootable/recovery"/>
+     <remove-project name="platform/external/bluetooth/bluedroid"/>
+    
+     <remove-project name="platform/packages/apps/Settings"/>
+     <remove-project name="platform/packages/apps/Dialer"/>
+     <remove-project name="platform/packages/apps/Bluetooth"/>
+     <remove-project name="platform/packages/apps/VoiceDialer"/>
+     <remove-project name="platform/packages/apps/InCallUI" />
+     <remove-project name="platform/build"/>
+     <remove-project name="platform/frameworks/base"/>
+     <remove-project name="platform/frameworks/av"/>
+     <remove-project name="platform/frameworks/native"/>
+     <remove-project name="platform/frameworks/opt/telephony"/>
+     <remove-project name="platform/frameworks/rs"/>
+     <remove-project name="platform/hardware/libhardware"/>
+     <remove-project name="platform/hardware/libhardware_legacy"/>
+     <remove-project name="platform/packages/providers/TelephonyProvider"/>
+     <remove-project name="platform/packages/services/Telephony"/>
+     <remove-project name="platform/system/core"/>
+     <remove-project name="platform/system/extras"/>
+     <remove-project name="platform/system/media"/>
+     <remove-project name="platform/system/vold"/>
+     <remove-project name="platform/system/netd"/>
+     <remove-project name="platform/bionic"/>
+     <remove-project name="platform/art"/>
+     <remove-project name="platform/external/valgrind"/>
+     <remove-project name="platform/packages/apps/Music"/>
+     <remove-project name="platform/packages/apps/MusicFX"/>
+     <remove-project name="platform/external/wpa_supplicant_8" />
+     <remove-project name="platform/external/webp" />
+     
+     <project path="build" name="AndroidOpenSourceXperia/android_build" remote="github" revision="kitkat">
+      <copyfile src="core/root.mk" dest="Makefile"/>
+     </project>
+     
+     <project path="bionic" name="AndroidOpenSourceXperia/android_bionic" remote="github" revision="kitkat" />
+     <project path="frameworks/av" name="AndroidOpenSourceXperia/android_frameworks_av" remote="github" revision="kitkat" />
+     <project path="frameworks/base" name="AndroidOpenSourceXperia/android_frameworks_base" remote="github" revision="kitkat" />
+     <project path="frameworks/native" name="AndroidOpenSourceXperia/android_frameworks_native" remote="github" revision="kitkat" />
+     <project path="frameworks/opt/telephony" name="AndroidOpenSourceXperia/android_frameworks_opt_telephony" remote="github" revision="kitkat" />
+     <project path="frameworks/rs" name="AndroidOpenSourceXperia/android_frameworks_rs" remote="github" revision="kitkat" />
+     <project path="hardware/libhardware" name="AndroidOpenSourceXperia/android_hardware_libhardware" remote="github" revision="kitkat" />
+     <project path="hardware/libhardware_legacy" name="AndroidOpenSourceXperia/android_hardware_libhardware_legacy" remote="github" revision="kitkat" />
+     <project path="packages/apps/Bluetooth" name="AndroidOpenSourceXperia/android_packages_apps_Bluetooth" remote="github" revision="kitkat" />
+     <project path="packages/apps/Dialer" name="AndroidOpenSourceXperia/android_packages_apps_Dialer" remote="github" revision="kitkat" />
+     <project path="packages/apps/Settings" name="AndroidOpenSourceXperia/android_packages_apps_Settings" remote="github" revision="kitkat" />
+     <project path="packages/apps/VoiceDialer" name="AndroidOpenSourceXperia/android_packages_apps_VoiceDialer" remote="github" revision="kitkat" />
+     <project path="packages/apps/InCallUI" name="AndroidOpenSourceXperia/android_packages_apps_InCallUI" remote="github" revision="kitkat" />
+     <project path="packages/providers/TelephonyProvider" name="AndroidOpenSourceXperia/android_packages_providers_TelephonyProvider" remote="github" revision="kitkat" />
+     <project path="packages/services/Telephony" name="AndroidOpenSourceXperia/android_packages_services_Telephony" remote="github" revision="kitkat" />
+     <project path="system/vold" name="AndroidOpenSourceXperia/android_system_vold" remote="github" revision="kitkat" />
+     <project path="system/netd" name="AndroidOpenSourceXperia/android_system_netd" remote="github" revision="kitkat" />
+     <project path="system/media" name="AndroidOpenSourceXperia/android_system_media" remote="github" revision="kitkat" />
+     <project path="system/core" name="AndroidOpenSourceXperia/android_system_core" remote="github" revision="kitkat" />
+     <project path="system/extras" name="AndroidOpenSourceXperia/android_system_extras" remote="github" revision="kitkat" /> 
+     <project path="art" name="AndroidOpenSourceXperia/android_art" remote="github" revision="kitkat" />
+     <project path="external/valgrind" name="AndroidOpenSourceXperia/android_external_valgrind" remote="github" revision="kitkat" />
+     <project path="external/wpa_supplicant_8" name="AndroidOpenSourceXperia/android_external_wpa_supplicant_8" remote="github" revision="kitkat" /> 
+     
+     <project path="device/sony/montblanc-common" name="AndroidOpenSourceXperia/android_device_sony_montblanc-common" remote="github" revision="master" />
+     <project path="device/sony/kumquat" name="AndroidOpenSourceXperia/android_device_sony_kumquat" remote="github" revision="master" />
+     <project path="device/sony/pepper" name="AndroidOpenSourceXperia/android_device_sony_pepper" remote="github" revision="master" />
+     <project path="device/sony/lotus" name="AndroidOpenSourceXperia/android_device_sony_lotus" remote="github" revision="master" />
+     <project path="device/sony/nypon" name="AndroidOpenSourceXperia/android_device_sony_nypon" remote="github" revision="master" />
+    
+     <project path="kernel/sony/u8500" name="AndroidOpenSourceXperia/android_kernel_sony_u8500" remote="github" revision="master" />
+     <project path="vendor/sony" name="AndroidOpenSourceXperia/android_vendor_sony" remote="github" revision="master" />
+     <project path="hardware/ste-sony" name="AndroidOpenSourceXperia/android_hardware_ste-sony" remote="github" revision="master" />
+     <project path="vendor/google" name="AndroidOpenSourceXperia/android_vendor_google" remote="github" revision="master" />
+     <project path="external/bluetooth/bluez" name="AndroidOpenSourceXperia/android_external_bluetooth_bluez" remote="github" revision="5.27" />
+     <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel" revision="master" groups="pdk" />
+     <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
+    
+     <project path="external/koush/Superuser" name="AndroidOpenSourceXperia/Superuser" remote="github" revision="master" />
+     <project path="external/koush/Widgets" name="AndroidOpenSourceXperia/Widgets" remote="github" revision="master" />
+     
+     <project path="bootable/recovery" name="AndroidOpenSourceXperia/android_bootable_recovery" remote="github" revision="master" />
+    
+     <project path="external/busybox" name="AndroidOpenSourceXperia/android_external_busybox" remote="github" revision="cm-11.0" />
+    
+     <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-4.4" />
+     <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-4.4" />
+     
+     <project path="packages/apps/OmniTorch" name="omnirom/android_packages_apps_OmniTorch" remote="github" revision="android-4.4" />
+     
+     <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" /> 
+    
+     <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-11.0" />
+     <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-11.0" />
+     
+     <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-11.0" />
+     
+     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-ArchiDroid" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.9-arm-eabi" />
+     <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-ArchiDroid" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.9-arm-linux-androideabi" />
+    
+     <project path="external/stlport" name="AndroidOpenSourceXperia/android_external_stlport" remote="github" revision="kitkat" />
+     <project path="external/webp" name="AndroidOpenSourceXperia/android_external_webp" remote="github" revision="kitkat" />
+     
 </manifest>
