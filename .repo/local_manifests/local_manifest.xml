@@ -17,7 +17,6 @@
      <remove-project name="device/generic/x86" />
      <remove-project name="device/google/accessory/arduino" />
      <remove-project name="device/google/accessory/demokit" />
-     <remove-project name="device/google/atv" />
      <remove-project name="device/htc/flounder" />
      <remove-project name="device/htc/flounder-kernel" />
      <remove-project name="device/lge/hammerhead" />
