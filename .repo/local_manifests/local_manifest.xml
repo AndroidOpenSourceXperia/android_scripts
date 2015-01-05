@@ -10,8 +10,6 @@
      <remove-project name="device/asus/flo-kernel" />
      <remove-project name="device/asus/grouper" />
      <remove-project name="device/asus/tilapia" />
-     <remove-project name="device/generic/arm64" />
-     <remove-project name="device/generic/mini-emulator-arm64" />
      <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
      <remove-project name="device/generic/mini-emulator-mips" />
      <remove-project name="device/generic/mini-emulator-x86" />
