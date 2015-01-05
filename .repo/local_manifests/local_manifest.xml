@@ -119,7 +119,6 @@
      <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-ArchiDroid" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.9-arm-eabi" />
      <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-ArchiDroid" name="ArchiDroid/Toolchain" remote="github" revision="linaro-4.9-arm-linux-androideabi" />
     
-     <project path="external/stlport" name="AndroidOpenSourceXperia/android_external_stlport" remote="github" revision="kitkat" />
      <project path="external/webp" name="AndroidOpenSourceXperia/android_external_webp" remote="github" revision="kitkat" />
      
 </manifest>
