@@ -100,7 +100,7 @@
      <project path="external/koush/Superuser" name="AndroidOpenSourceXperia/Superuser" remote="github" revision="master" />
      <project path="external/koush/Widgets" name="AndroidOpenSourceXperia/Widgets" remote="github" revision="master" />
      
-     <project path="bootable/recovery" name="AndroidOpenSourceXperia/android_bootable_recovery" remote="github" revision="master" />
+     <project path="bootable/recovery" name="AndroidOpenSourceXperia/android_bootable_recovery" remote="github" revision="kitkat" />
     
      <project path="packages/apps/Apollo" name="omnirom/android_packages_apps_Apollo" remote="github" revision="android-4.4" />
      <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-4.4" />
