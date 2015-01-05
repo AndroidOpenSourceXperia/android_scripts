@@ -21,8 +21,6 @@
      <remove-project name="device/lge/hammerhead-kernel" />
      <remove-project name="device/lge/mako" />
      <remove-project name="device/lge/mako-kernel" />
-     <remove-project name="device/moto/shamu" />
-     <remove-project name="device/moto/shamu-kernel" />
      <remove-project name="device/samsung/manta" />
     
      
