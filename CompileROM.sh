@@ -2,9 +2,14 @@
 if [[ $# = 1 ]]; then
   . build/envsetup.sh
   if [[ $? = 0 ]]; then
-    # Use local Java Development Kit 6
-    if (( $(java -version 2>&1 | grep version | cut -f2 -d".") > 6 )); then
-       export EXPERIMENTAL_USE_JAVA7=true;
+    # Download Java 6 if necessary
+    if [ $(java -version 2>&1 | grep version | cut -f2 -d".") -gt 6 ] ; then
+	if [ ! -d ./jdk1.6.0_45 ]; then
+    	    wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/6u45-b06/jdk-6u45-linux-x64.bin";
+            chmod +x jdk-6u45-linux-x64.bin;
+            ./jdk-6u45-linux-x64.bin
+        fi
+      export JAVA_HOME=$(realpath ./jdk1.6.0_45);
     fi
     case $1 in
     -u)
