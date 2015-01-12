@@ -111,7 +111,7 @@
      <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-11.0" />
      
     
-     <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-11.0" />
+     <project path="external/busybox" name="AndroidOpenSourceXperia/android_external_busybox" remote="github" revision="cm-11.0" />
      <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-11.0" />
      <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-11.0" />
      
